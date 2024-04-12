@@ -1,0 +1,8 @@
+1.1--https://app.codility.com/demo/results/trainingNS7UUH-C36/
+
+2.1--https://app.codility.com/demo/results/training8XV6AY-4PF/
+2.2--https://app.codility.com/demo/results/training2QE4KB-DVT/
+
+3.1--https://app.codility.com/demo/results/trainingGRP49Y-JGX/
+3.2--https://app.codility.com/demo/results/trainingF92RB9-JAG/
+3.3--https://app.codility.com/demo/results/trainingPQP7AZ-RX5/

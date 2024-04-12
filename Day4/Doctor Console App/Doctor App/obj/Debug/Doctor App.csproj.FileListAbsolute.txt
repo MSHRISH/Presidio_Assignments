@@ -1,0 +1,7 @@
+C:\Presidio\Assignments_Presidio\Day4\Doctor Console App\Doctor App\bin\Debug\Doctor App.exe.config
+C:\Presidio\Assignments_Presidio\Day4\Doctor Console App\Doctor App\bin\Debug\Doctor App.exe
+C:\Presidio\Assignments_Presidio\Day4\Doctor Console App\Doctor App\bin\Debug\Doctor App.pdb
+C:\Presidio\Assignments_Presidio\Day4\Doctor Console App\Doctor App\obj\Debug\Doctor App.csproj.AssemblyReference.cache
+C:\Presidio\Assignments_Presidio\Day4\Doctor Console App\Doctor App\obj\Debug\Doctor App.csproj.CoreCompileInputs.cache
+C:\Presidio\Assignments_Presidio\Day4\Doctor Console App\Doctor App\obj\Debug\Doctor App.exe
+C:\Presidio\Assignments_Presidio\Day4\Doctor Console App\Doctor App\obj\Debug\Doctor App.pdb

@@ -6,11 +6,11 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Doctor App||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|c:\\presidio\\assignments_presidio\\day4\\doctor console app\\doctor app\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\doctor app\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|solutionrelative:doctor app\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|c:\\presidio\\assignments_presidio\\day4\\doctor console app\\doctor app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\doctor app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|solutionrelative:doctor app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -56,8 +56,7 @@
               "RelativeToolTip": "Doctor App\\App.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-04-12T10:56:55.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T10:56:55.028Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "Doctor App\\Program.cs*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T09:35:53.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T09:35:53.424Z"
             }
           ]
         }

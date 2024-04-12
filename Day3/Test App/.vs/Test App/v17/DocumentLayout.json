@@ -1,36 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Presidio\\Day 3\\Test App\\",
+  "WorkspaceRootPath": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|c:\\presidio\\day 3\\test app\\question6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|c:\\presidio\\day 3\\test app\\question5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Test App||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|c:\\presidio\\day 3\\test app\\question2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|c:\\presidio\\day 3\\test app\\question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|c:\\presidio\\day 3\\test app\\question3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|c:\\presidio\\day 3\\test app\\question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|c:\\presidio\\day 3\\test app\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|c:\\presidio\\assignments_presidio\\day3\\test app\\question5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|solutionrelative:question2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D34AB91-7135-4A8E-9CA6-608F014B9233}|Test App.csproj|c:\\presidio\\assignments_presidio\\day3\\test app\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,53 +40,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Test App",
-              "DocumentMoniker": "C:\\Presidio\\Day 3\\Test App\\Test App.csproj",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\Test App.csproj",
               "RelativeDocumentMoniker": "Test App.csproj",
-              "ToolTip": "C:\\Presidio\\Day 3\\Test App\\Test App.csproj",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\Test App.csproj",
               "RelativeToolTip": "Test App.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-04-11T10:12:24.116Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "question6.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day 3\\Test App\\question6.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question6.cs",
               "RelativeDocumentMoniker": "question6.cs",
-              "ToolTip": "C:\\Presidio\\Day 3\\Test App\\question6.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question6.cs",
               "RelativeToolTip": "question6.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAmwDkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T10:10:19.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "question5.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day 3\\Test App\\question5.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question5.cs",
               "RelativeDocumentMoniker": "question5.cs",
-              "ToolTip": "C:\\Presidio\\Day 3\\Test App\\question5.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question5.cs",
               "RelativeToolTip": "question5.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAARAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T09:54:33.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "question4.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day 3\\Test App\\question4.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question4.cs",
               "RelativeDocumentMoniker": "question4.cs",
-              "ToolTip": "C:\\Presidio\\Day 3\\Test App\\question4.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question4.cs",
               "RelativeToolTip": "question4.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,39 +100,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "question3.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day 3\\Test App\\question3.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question3.cs",
               "RelativeDocumentMoniker": "question3.cs",
-              "ToolTip": "C:\\Presidio\\Day 3\\Test App\\question3.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question3.cs",
               "RelativeToolTip": "question3.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBQAAAARAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T09:43:47.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "question2.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day 3\\Test App\\question2.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question2.cs",
               "RelativeDocumentMoniker": "question2.cs",
-              "ToolTip": "C:\\Presidio\\Day 3\\Test App\\question2.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question2.cs",
               "RelativeToolTip": "question2.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAmwBkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T09:34:40.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T09:34:40.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "question1.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day 3\\Test App\\question1.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question1.cs",
               "RelativeDocumentMoniker": "question1.cs",
-              "ToolTip": "C:\\Presidio\\Day 3\\Test App\\question1.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day3\\Test App\\question1.cs",
               "RelativeToolTip": "question1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T08:45:19.466Z",
               "EditorCaption": ""

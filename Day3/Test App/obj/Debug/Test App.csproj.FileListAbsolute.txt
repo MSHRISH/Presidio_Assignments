@@ -1,0 +1,7 @@
+C:\Presidio\Day 3\Test App\bin\Debug\Test App.exe.config
+C:\Presidio\Day 3\Test App\bin\Debug\Test App.exe
+C:\Presidio\Day 3\Test App\bin\Debug\Test App.pdb
+C:\Presidio\Day 3\Test App\obj\Debug\Test App.csproj.AssemblyReference.cache
+C:\Presidio\Day 3\Test App\obj\Debug\Test App.csproj.CoreCompileInputs.cache
+C:\Presidio\Day 3\Test App\obj\Debug\Test App.exe
+C:\Presidio\Day 3\Test App\obj\Debug\Test App.pdb

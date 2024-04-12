@@ -1,0 +1,7 @@
+C:\Presidio\Assignments_Presidio\Day4\ValidCardNumber\ValidCardNumber\bin\Debug\ValidCardNumber.exe.config
+C:\Presidio\Assignments_Presidio\Day4\ValidCardNumber\ValidCardNumber\bin\Debug\ValidCardNumber.exe
+C:\Presidio\Assignments_Presidio\Day4\ValidCardNumber\ValidCardNumber\bin\Debug\ValidCardNumber.pdb
+C:\Presidio\Assignments_Presidio\Day4\ValidCardNumber\ValidCardNumber\obj\Debug\ValidCardNumber.csproj.AssemblyReference.cache
+C:\Presidio\Assignments_Presidio\Day4\ValidCardNumber\ValidCardNumber\obj\Debug\ValidCardNumber.csproj.CoreCompileInputs.cache
+C:\Presidio\Assignments_Presidio\Day4\ValidCardNumber\ValidCardNumber\obj\Debug\ValidCardNumber.exe
+C:\Presidio\Assignments_Presidio\Day4\ValidCardNumber\ValidCardNumber\obj\Debug\ValidCardNumber.pdb

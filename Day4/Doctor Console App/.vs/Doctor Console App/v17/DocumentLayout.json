@@ -3,12 +3,22 @@
   "WorkspaceRootPath": "C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Doctor App||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|c:\\presidio\\assignments_presidio\\day4\\doctor console app\\doctor app\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|solutionrelative:doctor app\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|c:\\presidio\\assignments_presidio\\day4\\doctor console app\\doctor app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|solutionrelative:doctor app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|c:\\presidio\\assignments_presidio\\day4\\doctor console app\\doctor app\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\doctor app\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|solutionrelative:doctor app\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2F22FA-F524-49C3-BE32-42DD51FD8619}|Doctor App\\Doctor App.csproj|c:\\presidio\\assignments_presidio\\day4\\doctor console app\\doctor app\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +31,37 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Doctor App",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\Doctor App\\Doctor App.csproj",
+              "RelativeDocumentMoniker": "Doctor App\\Doctor App.csproj",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\Doctor App\\Doctor App.csproj",
+              "RelativeToolTip": "Doctor App\\Doctor App.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-12T10:58:55.946Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\Doctor App\\App.config",
+              "RelativeDocumentMoniker": "Doctor App\\App.config",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\Doctor App\\App.config",
+              "RelativeToolTip": "Doctor App\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-12T10:56:55.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\Doctor App\\Doctor.cs",
               "RelativeDocumentMoniker": "Doctor App\\Doctor.cs",
@@ -30,18 +69,17 @@
               "RelativeToolTip": "Doctor App\\Doctor.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAAwCcAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T09:36:32.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T09:36:32.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\Doctor App\\Program.cs",
               "RelativeDocumentMoniker": "Doctor App\\Program.cs",
-              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\Doctor App\\Program.cs",
-              "RelativeToolTip": "Doctor App\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAwAAAA",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day4\\Doctor Console App\\Doctor App\\Program.cs*",
+              "RelativeToolTip": "Doctor App\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T09:35:53.424Z",
               "EditorCaption": ""

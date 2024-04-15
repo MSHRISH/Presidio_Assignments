@@ -1,0 +1,94 @@
+Programming constructs
+
+Selection Statements:
+	*if,else and else-if
+	*switch
+Sequence statements and iterations:
+	*for loop
+	*while loop
+	*do-while
+
+
+Question-From a given array find the three digit numbers that have the same number. Example -444
+
+*Multiple prjs in same soln.
+	You can create classes in different prj and use it like a library. This is useful particularly when 
+	we have use same classess in diff prj. We can just create one library and import it in needed prjs.
+
+	properties->add new prj->core-class library
+
+
+
+[2:18 PM] Gayathri Mahadevan
+Create the model
+
+Create methdos for CRUD
+
+---MEthods to build employee
+
+---Method to add all emploeyes(dependednt on Build employee)
+
+---Method to print EMployee
+
+---Method to iterate through all employee and print(Dependt on print employee)
+
+--Method to Get employee ID
+
+---MEthdo to search EMployee
+
+---Methdos to take id and search EMployee and printd(dependent on GetEmployeeID,SearchEmployee and PrintEmployee)
+
+---Method to Update Name(Dependent on GetEmnployeeId, SearchEmployee,PrintEmployee)
+
+---Methdo to delete employee(Note - Make the array reff as null)(Dependent on GetEmnployeeId, SearchEmployee,PrintEmployee)
+
+
+
+--------------------------------------------------------------------------------------------
+problem:
+
+[2:55 PM] Gayathri Mahadevan
+Create an application that will allow the user to play cow an bull(only for 4 char word)
+
+Same char same position - cow
+
+Same char diff position - bull
+
+Example - If the word is - golf
+
+Start the guess
+
+heap
+
+cows - 0, bulls - 0
+
+kite
+
+cows - 0, bulls -0
+
+girl
+
+cows - 1, bulls -1
+
+like
+
+cows -0, bulls 1
+
+milk
+
+cows -1, bull -0
+
+goat
+
+cows -2, bulls - 0
+
+gold
+
+cows -3, bulls-0
+
+golf
+
+cows -4, bulls -0
+
+Congrats!!! you won!!!!!
+ like 1

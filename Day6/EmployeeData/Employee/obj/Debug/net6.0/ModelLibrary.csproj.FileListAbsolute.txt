@@ -1,0 +1,11 @@
+C:\Presidio\Day6\EmployeeData\Employee\bin\Debug\net6.0\ModelLibrary.deps.json
+C:\Presidio\Day6\EmployeeData\Employee\bin\Debug\net6.0\ModelLibrary.dll
+C:\Presidio\Day6\EmployeeData\Employee\bin\Debug\net6.0\ModelLibrary.pdb
+C:\Presidio\Day6\EmployeeData\Employee\obj\Debug\net6.0\ModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Presidio\Day6\EmployeeData\Employee\obj\Debug\net6.0\ModelLibrary.AssemblyInfoInputs.cache
+C:\Presidio\Day6\EmployeeData\Employee\obj\Debug\net6.0\ModelLibrary.AssemblyInfo.cs
+C:\Presidio\Day6\EmployeeData\Employee\obj\Debug\net6.0\ModelLibrary.csproj.CoreCompileInputs.cache
+C:\Presidio\Day6\EmployeeData\Employee\obj\Debug\net6.0\ModelLibrary.dll
+C:\Presidio\Day6\EmployeeData\Employee\obj\Debug\net6.0\refint\ModelLibrary.dll
+C:\Presidio\Day6\EmployeeData\Employee\obj\Debug\net6.0\ModelLibrary.pdb
+C:\Presidio\Day6\EmployeeData\Employee\obj\Debug\net6.0\ref\ModelLibrary.dll

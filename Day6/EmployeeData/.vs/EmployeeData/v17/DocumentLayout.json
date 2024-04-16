@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Presidio\\Day6\\EmployeeData\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE000276-956F-44F8-8BB3-26327D793B0E}|EmployeeData\\EmployeeData.csproj|c:\\presidio\\day6\\employeedata\\employeedata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE000276-956F-44F8-8BB3-26327D793B0E}|EmployeeData\\EmployeeData.csproj|solutionrelative:employeedata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFF8B5A-130A-4705-A9CB-D50A1E75C343}|Employee\\ModelLibrary.csproj|c:\\presidio\\day6\\employeedata\\employee\\accenture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFF8B5A-130A-4705-A9CB-D50A1E75C343}|Employee\\ModelLibrary.csproj|solutionrelative:employee\\accenture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFF8B5A-130A-4705-A9CB-D50A1E75C343}|Employee\\ModelLibrary.csproj|c:\\presidio\\day6\\employeedata\\employee\\abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFF8B5A-130A-4705-A9CB-D50A1E75C343}|Employee\\ModelLibrary.csproj|solutionrelative:employee\\abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFF8B5A-130A-4705-A9CB-D50A1E75C343}|Employee\\ModelLibrary.csproj|c:\\presidio\\day6\\employeedata\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFF8B5A-130A-4705-A9CB-D50A1E75C343}|Employee\\ModelLibrary.csproj|solutionrelative:employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFF8B5A-130A-4705-A9CB-D50A1E75C343}|Employee\\ModelLibrary.csproj|c:\\presidio\\day6\\employeedata\\employee\\igovtrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFF8B5A-130A-4705-A9CB-D50A1E75C343}|Employee\\ModelLibrary.csproj|solutionrelative:employee\\igovtrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGovtRules.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day6\\EmployeeData\\Employee\\IGovtRules.cs",
+              "RelativeDocumentMoniker": "Employee\\IGovtRules.cs",
+              "ToolTip": "C:\\Presidio\\Day6\\EmployeeData\\Employee\\IGovtRules.cs",
+              "RelativeToolTip": "Employee\\IGovtRules.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T11:16:10.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Accenture.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day6\\EmployeeData\\Employee\\Accenture.cs",
+              "RelativeDocumentMoniker": "Employee\\Accenture.cs",
+              "ToolTip": "C:\\Presidio\\Day6\\EmployeeData\\Employee\\Accenture.cs",
+              "RelativeToolTip": "Employee\\Accenture.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB0AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T11:13:03.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ABC.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day6\\EmployeeData\\Employee\\ABC.cs",
+              "RelativeDocumentMoniker": "Employee\\ABC.cs",
+              "ToolTip": "C:\\Presidio\\Day6\\EmployeeData\\Employee\\ABC.cs",
+              "RelativeToolTip": "Employee\\ABC.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:26:25.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day6\\EmployeeData\\Employee\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee\\Employee.cs",
+              "ToolTip": "C:\\Presidio\\Day6\\EmployeeData\\Employee\\Employee.cs",
+              "RelativeToolTip": "Employee\\Employee.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:02:59.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day6\\EmployeeData\\EmployeeData\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeData\\Program.cs",
+              "ToolTip": "C:\\Presidio\\Day6\\EmployeeData\\EmployeeData\\Program.cs",
+              "RelativeToolTip": "EmployeeData\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:00:19.376Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

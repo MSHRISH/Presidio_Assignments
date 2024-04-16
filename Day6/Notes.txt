@@ -1,0 +1,12 @@
+Note: base class constructor gets executed first then the derived class constructor is executed
+Parent reference can point to child object.
+
+Parent reference = new child()
+
+Now when calling the methods the methods in the child() class will only be called. This is overriding.
+
+If you want to override a method from parent class you have to declare it as 'virtual'. Then you can override 
+it by using 'override' keyword.
+
+Interface:
+Inside interface everything is public unlike in class everything is private.

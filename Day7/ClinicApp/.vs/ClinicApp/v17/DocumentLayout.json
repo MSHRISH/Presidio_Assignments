@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Presidio\\Day7\\ClinicApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBBD340-817E-4D88-964F-48DA5FC30EA6}|ClinicDALLibrary\\ClinicDALLibrary.csproj|c:\\presidio\\day7\\clinicapp\\clinicdallibrary\\clinicappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBBD340-817E-4D88-964F-48DA5FC30EA6}|ClinicDALLibrary\\ClinicDALLibrary.csproj|solutionrelative:clinicdallibrary\\clinicappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBBD340-817E-4D88-964F-48DA5FC30EA6}|ClinicDALLibrary\\ClinicDALLibrary.csproj|c:\\presidio\\day7\\clinicapp\\clinicdallibrary\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBBD340-817E-4D88-964F-48DA5FC30EA6}|ClinicDALLibrary\\ClinicDALLibrary.csproj|solutionrelative:clinicdallibrary\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD74C014-7FAD-44FF-AC8A-62BE7DDBCD39}|ClinicModelLibrary\\ClinicModelLibrary.csproj|c:\\presidio\\day7\\clinicapp\\clinicmodellibrary\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD74C014-7FAD-44FF-AC8A-62BE7DDBCD39}|ClinicModelLibrary\\ClinicModelLibrary.csproj|solutionrelative:clinicmodellibrary\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\Appointment.cs",
+              "RelativeDocumentMoniker": "ClinicModelLibrary\\Appointment.cs",
+              "ToolTip": "C:\\Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\Appointment.cs",
+              "RelativeToolTip": "ClinicModelLibrary\\Appointment.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:48:00.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClinicAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "ClinicDALLibrary\\ClinicAppointmentRepository.cs",
+              "ToolTip": "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicAppointmentRepository.cs",
+              "RelativeToolTip": "ClinicDALLibrary\\ClinicAppointmentRepository.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAADwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:00:10.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\IRepository.cs",
+              "RelativeDocumentMoniker": "ClinicDALLibrary\\IRepository.cs",
+              "ToolTip": "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\IRepository.cs",
+              "RelativeToolTip": "ClinicDALLibrary\\IRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:53:07.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

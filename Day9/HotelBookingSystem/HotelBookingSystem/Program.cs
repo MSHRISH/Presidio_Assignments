@@ -6,6 +6,9 @@ namespace HotelBookingSystem
     {
         public void SearchForAvailableRoom()
         {
+            Random random = new Random();
+            int ReservationId= random.Next();
+
             Console.WriteLine("Enter Checkin Date: ");
             DateTime Checkin=Convert.ToDateTime(Console.ReadLine());
             Console.WriteLine("Enter Checkout Date: ");
@@ -19,7 +22,10 @@ namespace HotelBookingSystem
             Console.WriteLine("Wifi");
             bool Wifi=Convert.ToBoolean(Console.ReadLine());
 
-            Reservation reservation = new Reservation(101, Checkin, Checkout);
+            Reservation reservation = new Reservation(ReservationId, Checkin, Checkout, Roomtype, AC, Wifi);
+
+            //Checking Availability
+
 
 
 

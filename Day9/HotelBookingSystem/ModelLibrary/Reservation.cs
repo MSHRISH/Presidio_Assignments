@@ -15,6 +15,7 @@ namespace ModelLibrary
         private DateTime _checkOut;
         public DateTime Checkout { get; set; }
         public int RoomId { get; set; }
+        public string RoomType { get; set; }=string.Empty;
         public bool AC {  get; set; }
         public bool Wifi {  get; set; }
         public string Status { get; set; } = string.Empty;
@@ -22,12 +23,12 @@ namespace ModelLibrary
 
         public double Price {  get; set; }
     
-        public Reservation(int reservationid,DateTime checkin,DateTime checkout,int roomid,bool ac,bool wifi)
+        public Reservation(int reservationid,DateTime checkin,DateTime checkout,String roomtype,bool ac,bool wifi)
         {
             ReservationId = reservationid;
             Checkin = checkin;
             Checkout = checkout;
-            RoomId = roomid;
+            RoomType= roomtype;
             AC = ac;
             Wifi = wifi;
         }

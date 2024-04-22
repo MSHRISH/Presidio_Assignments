@@ -8,36 +8,49 @@ using System.Threading.Tasks;
 
 namespace HotelManagementDALLibrary
 {
-    public class ReservationRepository : IReservation<int, Reservation>
+    public class ReservationRepository : IReservationRepository<int, Reservation>
     {
         readonly Dictionary<int, Reservation> _reservation;
 
         //Availability
-        public int SingleRoom = 10;
-        public int DoubleRoom = 10;
-        public int suiteRoom = 5;
+        public int SingleBookings = 0;
+        public int DoubleBookings= 0;
+        public int SuiteBookings = 0;
+
+        public int GetSingleBookings()
+        {
+            return SingleBookings;
+        }
+        public int GetDoubleBookings()
+        {
+            return DoubleBookings;
+        }
+        public int GetSuiteBookings()
+        {
+            return SuiteBookings;
+        }
 
         public ReservationRepository()
         {
             _reservation = new Dictionary<int, Reservation>();
         }   
-        int GenerateId()
-        {
-            if (_reservation.Count == 0)
-                return 1;
-            int id = _reservation.Keys.Max();
-            return ++id;
-        }
+        
+       
 
         public Reservation MakeReservation(Reservation reservation)
         {
-            _reservation.Add(GenerateId(), reservation);
+            _reservation.Add(reservation.ReservationId, reservation);
             return reservation;    
         }
 
         public bool CheckReservation(Room room)
         {
             return true;
+        }
+
+        public List<Reservation> GetAllReservations()
+        {
+            return _reservation.Values.ToList();
         }
     }
 }

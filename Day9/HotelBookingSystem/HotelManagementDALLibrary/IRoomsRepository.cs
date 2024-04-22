@@ -13,5 +13,7 @@ namespace HotelManagementDALLibrary
         void GenerateRooms();
         List<Room> GetAllRooms();
 
+        T GetRoomById(int id);
+
     }
 }

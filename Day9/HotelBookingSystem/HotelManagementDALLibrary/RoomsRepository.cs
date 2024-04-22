@@ -20,10 +20,10 @@ namespace HotelManagementDALLibrary
         {
             //Single Rooms
             bool oceanview=false;
-            for(int i=100;i<=125;i++)
+            for(int i=100;i<=130;i++)
             {
                 string roomtype=string.Empty;
-                if (i < 110)
+                if (i <= 110)
                 {
                     roomtype = "Single";
                 }
@@ -45,6 +45,11 @@ namespace HotelManagementDALLibrary
         public List<Room> GetAllRooms()
         {
             return _rooms.Values.ToList();
+        }
+
+        public Room GetRoomById(int id)
+        {
+            return _rooms[id];
         }
     }
 }

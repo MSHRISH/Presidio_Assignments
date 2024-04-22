@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{FB4D8F12-1B5A-4985-9E13-56297B3E7FDD}|HotelManagementDALLibrary\\HotelManagementDALLibrary.csproj|solutionrelative:hotelmanagementdallibrary\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FB4D8F12-1B5A-4985-9E13-56297B3E7FDD}|HotelManagementDALLibrary\\HotelManagementDALLibrary.csproj|c:\\presidio\\assignments_presidio\\day9\\hotelbookingsystem\\hotelmanagementdallibrary\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4D8F12-1B5A-4985-9E13-56297B3E7FDD}|HotelManagementDALLibrary\\HotelManagementDALLibrary.csproj|solutionrelative:hotelmanagementdallibrary\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9D1F83A-7D97-4B45-8DC9-9B6161307770}|HotelManagementBLLibrary\\HotelManagementBLLibrary.csproj|c:\\presidio\\assignments_presidio\\day9\\hotelbookingsystem\\hotelmanagementbllibrary\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9D1F83A-7D97-4B45-8DC9-9B6161307770}|HotelManagementBLLibrary\\HotelManagementBLLibrary.csproj|solutionrelative:hotelmanagementbllibrary\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB4D8F12-1B5A-4985-9E13-56297B3E7FDD}|HotelManagementDALLibrary\\HotelManagementDALLibrary.csproj|c:\\presidio\\assignments_presidio\\day9\\hotelbookingsystem\\hotelmanagementdallibrary\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4D8F12-1B5A-4985-9E13-56297B3E7FDD}|HotelManagementDALLibrary\\HotelManagementDALLibrary.csproj|solutionrelative:hotelmanagementdallibrary\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0258F6F2-88A2-494A-8D3B-395911E1DAC4}|ModelLibrary\\ModelLibrary.csproj|c:\\presidio\\assignments_presidio\\day9\\hotelbookingsystem\\modellibrary\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0258F6F2-88A2-494A-8D3B-395911E1DAC4}|ModelLibrary\\ModelLibrary.csproj|solutionrelative:modellibrary\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day9\\HotelBookingSystem\\ModelLibrary\\Reservation.cs",
+              "RelativeDocumentMoniker": "ModelLibrary\\Reservation.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day9\\HotelBookingSystem\\ModelLibrary\\Reservation.cs",
+              "RelativeToolTip": "ModelLibrary\\Reservation.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA8wBYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T09:09:35.117Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IReservationService.cs",
               "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day9\\HotelBookingSystem\\HotelManagementBLLibrary\\IReservationService.cs",
               "RelativeDocumentMoniker": "HotelManagementBLLibrary\\IReservationService.cs",
               "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day9\\HotelBookingSystem\\HotelManagementBLLibrary\\IReservationService.cs",
               "RelativeToolTip": "HotelManagementBLLibrary\\IReservationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T08:53:12.385Z",
               "EditorCaption": ""
@@ -53,7 +70,7 @@
               "RelativeDocumentMoniker": "HotelManagementBLLibrary\\ReservationService.cs",
               "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day9\\HotelBookingSystem\\HotelManagementBLLibrary\\ReservationService.cs",
               "RelativeToolTip": "HotelManagementBLLibrary\\ReservationService.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAIwDEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T08:36:21.141Z",
               "EditorCaption": ""
@@ -66,20 +83,20 @@
               "RelativeDocumentMoniker": "HotelManagementDALLibrary\\ReservationRepository.cs",
               "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day9\\HotelBookingSystem\\HotelManagementDALLibrary\\ReservationRepository.cs",
               "RelativeToolTip": "HotelManagementDALLibrary\\ReservationRepository.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAowDIAAAAzAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAUwEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T07:10:17.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IReservationRepository.cs",
               "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day9\\HotelBookingSystem\\HotelManagementDALLibrary\\IReservationRepository.cs",
               "RelativeDocumentMoniker": "HotelManagementDALLibrary\\IReservationRepository.cs",
               "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day9\\HotelBookingSystem\\HotelManagementDALLibrary\\IReservationRepository.cs",
               "RelativeToolTip": "HotelManagementDALLibrary\\IReservationRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowBAAAAAlAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA9wBIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T07:10:19.735Z",
               "EditorCaption": ""

@@ -11,12 +11,16 @@ namespace ModelLibrary
     {
         public int ReservationId { get; set; }  
         public DateTime Checkin { get; set; }
+        
+        private DateTime _checkOut;
         public DateTime Checkout { get; set; }
         public int RoomId { get; set; }
         public bool AC {  get; set; }
         public bool Wifi {  get; set; }
         public string Status { get; set; } = string.Empty;
         public string GuestName {  get; set; }=string.Empty;
+
+        public double Price {  get; set; }
     
         public Reservation(int reservationid,DateTime checkin,DateTime checkout,int roomid,bool ac,bool wifi)
         {

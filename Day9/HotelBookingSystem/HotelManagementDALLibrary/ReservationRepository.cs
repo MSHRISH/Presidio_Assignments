@@ -37,20 +37,35 @@ namespace HotelManagementDALLibrary
         
        
 
-        public Reservation MakeReservation(Reservation reservation)
+        public Reservation MakeReservation(Reservation reservation, string RoomType)
         {
             _reservation.Add(reservation.ReservationId, reservation);
+            if (RoomType == "Single")
+            {
+                SingleBookings++;
+            }
+            else if(RoomType == "Double")
+            {
+                DoubleBookings++;
+            }
+            else
+            {
+                SuiteBookings++;
+            }
             return reservation;    
         }
 
-        public bool CheckReservation(Room room)
-        {
-            return true;
-        }
-
+    
         public List<Reservation> GetAllReservations()
         {
             return _reservation.Values.ToList();
         }
+
+        public Reservation GetReservationById(int reservationId)
+        {
+            return _reservation[reservationId];
+        }
+
+
     }
 }

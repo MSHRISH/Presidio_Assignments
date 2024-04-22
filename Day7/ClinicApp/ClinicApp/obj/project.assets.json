@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Presidio\\Day7\\ClinicApp\\ClinicApp\\ClinicApp.csproj",
+      "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicApp\\ClinicApp.csproj",
       "projectName": "ClinicApp",
-      "projectPath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicApp\\ClinicApp.csproj",
+      "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicApp\\ClinicApp.csproj",
       "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-      "outputPath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicApp\\obj\\",
+      "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

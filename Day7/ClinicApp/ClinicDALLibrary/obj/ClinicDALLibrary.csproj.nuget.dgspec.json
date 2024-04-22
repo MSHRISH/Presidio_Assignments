@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj": {}
+    "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj",
         "projectName": "ClinicDALLibrary",
-        "projectPath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj": {
-                "projectPath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj"
+              "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj": {
+                "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
         "projectName": "ClinicModelLibrary",
-        "projectPath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\ClinicModelLibrary.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicModelLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hmkF0APm5OITusqYPKmOw0xrwvC/dG/uUzlDQcn2lnouoTz3EF/3SA4BBDoyuAXHgEgaazRM4HQDVyRbH6hNsg==",
+  "dgSpecHash": "uhj6hbpkYf6MJ/G4NWtsfJkwOUF8/ZVh5lyo5YYQjcSXLHo6T2ffWCS981dNf4qbioJiAkKjbl/tITS7PoUTDw==",
   "success": true,
-  "projectFilePath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj",
+  "projectFilePath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicDALLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

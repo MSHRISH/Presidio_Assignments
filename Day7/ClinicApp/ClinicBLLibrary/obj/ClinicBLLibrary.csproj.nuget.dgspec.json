@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\ClinicBLLibrary.csproj": {}
+    "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\ClinicBLLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\ClinicBLLibrary.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\ClinicBLLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\ClinicBLLibrary.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\ClinicBLLibrary.csproj",
         "projectName": "ClinicBLLibrary",
-        "projectPath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\ClinicBLLibrary.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\ClinicBLLibrary.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicBLLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

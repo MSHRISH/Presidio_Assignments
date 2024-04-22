@@ -9,3 +9,15 @@ C:\Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ModelLibrary.d
 C:\Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\refint\ModelLibrary.dll
 C:\Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ModelLibrary.pdb
 C:\Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ref\ModelLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\bin\Debug\net6.0\ModelLibrary.deps.json
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\bin\Debug\net6.0\ModelLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\bin\Debug\net6.0\ModelLibrary.pdb
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ModelLibrary.AssemblyInfoInputs.cache
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ModelLibrary.AssemblyInfo.cs
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ModelLibrary.csproj.CoreCompileInputs.cache
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ModelLibrary.sourcelink.json
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ModelLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\refint\ModelLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ModelLibrary.pdb
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\ModelLibrary\obj\Debug\net6.0\ref\ModelLibrary.dll

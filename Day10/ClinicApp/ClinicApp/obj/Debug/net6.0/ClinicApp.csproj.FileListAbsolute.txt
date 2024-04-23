@@ -1,0 +1,14 @@
+C:\Presidio\Day10\ClinicApp\ClinicApp\bin\Debug\net6.0\ClinicApp.exe
+C:\Presidio\Day10\ClinicApp\ClinicApp\bin\Debug\net6.0\ClinicApp.deps.json
+C:\Presidio\Day10\ClinicApp\ClinicApp\bin\Debug\net6.0\ClinicApp.runtimeconfig.json
+C:\Presidio\Day10\ClinicApp\ClinicApp\bin\Debug\net6.0\ClinicApp.dll
+C:\Presidio\Day10\ClinicApp\ClinicApp\bin\Debug\net6.0\ClinicApp.pdb
+C:\Presidio\Day10\ClinicApp\ClinicApp\obj\Debug\net6.0\ClinicApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Presidio\Day10\ClinicApp\ClinicApp\obj\Debug\net6.0\ClinicApp.AssemblyInfoInputs.cache
+C:\Presidio\Day10\ClinicApp\ClinicApp\obj\Debug\net6.0\ClinicApp.AssemblyInfo.cs
+C:\Presidio\Day10\ClinicApp\ClinicApp\obj\Debug\net6.0\ClinicApp.csproj.CoreCompileInputs.cache
+C:\Presidio\Day10\ClinicApp\ClinicApp\obj\Debug\net6.0\ClinicApp.dll
+C:\Presidio\Day10\ClinicApp\ClinicApp\obj\Debug\net6.0\refint\ClinicApp.dll
+C:\Presidio\Day10\ClinicApp\ClinicApp\obj\Debug\net6.0\ClinicApp.pdb
+C:\Presidio\Day10\ClinicApp\ClinicApp\obj\Debug\net6.0\ClinicApp.genruntimeconfig.cache
+C:\Presidio\Day10\ClinicApp\ClinicApp\obj\Debug\net6.0\ref\ClinicApp.dll

@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Presidio\\Day12\\ShoppingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9FB0284-19C1-4F0C-B4B4-E71C6E256857}|ShoppingBusinessLogicTesting\\ShoppingBusinessLogicTesting.csproj|c:\\presidio\\day12\\shoppingapp\\shoppingbusinesslogictesting\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9FB0284-19C1-4F0C-B4B4-E71C6E256857}|ShoppingBusinessLogicTesting\\ShoppingBusinessLogicTesting.csproj|solutionrelative:shoppingbusinesslogictesting\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6029C56D-640D-40D7-A3AE-EF659015446F}|ModelLibrary\\ModelLibrary.csproj|c:\\presidio\\day12\\shoppingapp\\modellibrary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6029C56D-640D-40D7-A3AE-EF659015446F}|ModelLibrary\\ModelLibrary.csproj|solutionrelative:modellibrary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1DFF80-CE76-42FC-A57E-62D1EB2E667B}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|c:\\presidio\\day12\\shoppingapp\\shoppingbllibrary\\shoppingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1DFF80-CE76-42FC-A57E-62D1EB2E667B}|ShoppingBLLibrary\\ShoppingBLLibrary.csproj|solutionrelative:shoppingbllibrary\\shoppingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E78708-98D4-4B71-AF44-45588C2FAA91}|ShoppingApp\\ShoppingApp.csproj|c:\\presidio\\day12\\shoppingapp\\shoppingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E78708-98D4-4B71-AF44-45588C2FAA91}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6029C56D-640D-40D7-A3AE-EF659015446F}|ModelLibrary\\ModelLibrary.csproj|c:\\presidio\\day12\\shoppingapp\\modellibrary\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6029C56D-640D-40D7-A3AE-EF659015446F}|ModelLibrary\\ModelLibrary.csproj|solutionrelative:modellibrary\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingBusinessLogicTesting\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ShoppingBusinessLogicTesting\\UnitTest1.cs",
+              "ToolTip": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingBusinessLogicTesting\\UnitTest1.cs",
+              "RelativeToolTip": "ShoppingBusinessLogicTesting\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T11:12:21.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\Product.cs",
+              "RelativeDocumentMoniker": "ModelLibrary\\Product.cs",
+              "ToolTip": "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\Product.cs",
+              "RelativeToolTip": "ModelLibrary\\Product.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA/wB4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:25:33.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\Cart.cs",
+              "RelativeDocumentMoniker": "ModelLibrary\\Cart.cs",
+              "ToolTip": "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\Cart.cs",
+              "RelativeToolTip": "ModelLibrary\\Cart.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:39:51.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingServices.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingServices.cs",
+              "RelativeDocumentMoniker": "ShoppingBLLibrary\\ShoppingServices.cs",
+              "ToolTip": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingServices.cs",
+              "RelativeToolTip": "ShoppingBLLibrary\\ShoppingServices.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAcwFgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:54:49.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingApp\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Program.cs",
+              "ToolTip": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingApp\\Program.cs",
+              "RelativeToolTip": "ShoppingApp\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwDAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:39:07.491Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

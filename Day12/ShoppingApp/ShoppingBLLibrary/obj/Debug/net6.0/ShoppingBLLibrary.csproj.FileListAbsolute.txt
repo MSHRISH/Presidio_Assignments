@@ -1,0 +1,17 @@
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.csproj.AssemblyReference.cache
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.AssemblyInfoInputs.cache
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.AssemblyInfo.cs
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.csproj.CoreCompileInputs.cache
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingBLLibrary.deps.json
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingBLLibrary.dll
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingBLLibrary.pdb
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\bin\Debug\net6.0\ModelLibrary.dll
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingDALLibrary.dll
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\bin\Debug\net6.0\ModelLibrary.pdb
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\bin\Debug\net6.0\ShoppingDALLibrary.pdb
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\Shopping.908EF466.Up2Date
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.dll
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\refint\ShoppingBLLibrary.dll
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\ShoppingBLLibrary.pdb
+C:\Presidio\Day12\ShoppingApp\ShoppingBLLibrary\obj\Debug\net6.0\ref\ShoppingBLLibrary.dll

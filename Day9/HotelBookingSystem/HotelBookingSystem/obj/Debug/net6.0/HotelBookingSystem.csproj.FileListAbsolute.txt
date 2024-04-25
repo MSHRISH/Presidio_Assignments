@@ -35,3 +35,7 @@ C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelBookingSystem\obj\
 C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0\HotelBookingSystem.pdb
 C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0\HotelBookingSystem.genruntimeconfig.cache
 C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelBookingSystem\obj\Debug\net6.0\ref\HotelBookingSystem.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelBookingSystem\bin\Debug\net6.0\HotelManagementBLLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelBookingSystem\bin\Debug\net6.0\HotelManagementDALLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelBookingSystem\bin\Debug\net6.0\HotelManagementBLLibrary.pdb
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelBookingSystem\bin\Debug\net6.0\HotelManagementDALLibrary.pdb

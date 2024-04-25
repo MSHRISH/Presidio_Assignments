@@ -1,0 +1,16 @@
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\bin\Debug\net6.0\HotelManagementDALLibrary.deps.json
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\bin\Debug\net6.0\HotelManagementDALLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\bin\Debug\net6.0\HotelManagementDALLibrary.pdb
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\bin\Debug\net6.0\ModelLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\bin\Debug\net6.0\ModelLibrary.pdb
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\HotelManagementDALLibrary.csproj.AssemblyReference.cache
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\HotelManagementDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\HotelManagementDALLibrary.AssemblyInfoInputs.cache
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\HotelManagementDALLibrary.AssemblyInfo.cs
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\HotelManagementDALLibrary.csproj.CoreCompileInputs.cache
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\HotelManagementDALLibrary.sourcelink.json
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\HotelMan.7AD59CDE.Up2Date
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\HotelManagementDALLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\refint\HotelManagementDALLibrary.dll
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\HotelManagementDALLibrary.pdb
+C:\Presidio\Assignments_Presidio\Day9\HotelBookingSystem\HotelManagementDALLibrary\obj\Debug\net6.0\ref\HotelManagementDALLibrary.dll

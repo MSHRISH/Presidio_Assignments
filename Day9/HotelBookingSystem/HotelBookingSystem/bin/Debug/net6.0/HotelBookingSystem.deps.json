@@ -8,10 +8,28 @@
     ".NETCoreApp,Version=v6.0": {
       "HotelBookingSystem/1.0.0": {
         "dependencies": {
+          "HotelManagementBLLibrary": "1.0.0",
           "ModelLibrary": "1.0.0"
         },
         "runtime": {
           "HotelBookingSystem.dll": {}
+        }
+      },
+      "HotelManagementBLLibrary/1.0.0": {
+        "dependencies": {
+          "HotelManagementDALLibrary": "1.0.0",
+          "ModelLibrary": "1.0.0"
+        },
+        "runtime": {
+          "HotelManagementBLLibrary.dll": {}
+        }
+      },
+      "HotelManagementDALLibrary/1.0.0": {
+        "dependencies": {
+          "ModelLibrary": "1.0.0"
+        },
+        "runtime": {
+          "HotelManagementDALLibrary.dll": {}
         }
       },
       "ModelLibrary/1.0.0": {
@@ -23,6 +41,16 @@
   },
   "libraries": {
     "HotelBookingSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotelManagementBLLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotelManagementDALLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

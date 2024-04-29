@@ -1,0 +1,14 @@
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\bin\Debug\net6.0\LeetCodeProblems.exe
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\bin\Debug\net6.0\LeetCodeProblems.deps.json
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\bin\Debug\net6.0\LeetCodeProblems.runtimeconfig.json
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\bin\Debug\net6.0\LeetCodeProblems.dll
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\bin\Debug\net6.0\LeetCodeProblems.pdb
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\obj\Debug\net6.0\LeetCodeProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\obj\Debug\net6.0\LeetCodeProblems.AssemblyInfoInputs.cache
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\obj\Debug\net6.0\LeetCodeProblems.AssemblyInfo.cs
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\obj\Debug\net6.0\LeetCodeProblems.csproj.CoreCompileInputs.cache
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\obj\Debug\net6.0\LeetCodeProblems.dll
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\obj\Debug\net6.0\refint\LeetCodeProblems.dll
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\obj\Debug\net6.0\LeetCodeProblems.pdb
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\obj\Debug\net6.0\LeetCodeProblems.genruntimeconfig.cache
+C:\Presidio\Day14\LeetCodeProblems\LeetCodeProblems\obj\Debug\net6.0\ref\LeetCodeProblems.dll

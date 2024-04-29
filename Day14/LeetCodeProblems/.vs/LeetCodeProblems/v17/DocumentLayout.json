@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Presidio\\Day14\\LeetCodeProblems\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87580F2C-4E5E-443B-8915-FD6DD893879B}|LeetCodeProblems\\LeetCodeProblems.csproj|c:\\presidio\\day14\\leetcodeproblems\\leetcodeproblems\\question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87580F2C-4E5E-443B-8915-FD6DD893879B}|LeetCodeProblems\\LeetCodeProblems.csproj|solutionrelative:leetcodeproblems\\question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87580F2C-4E5E-443B-8915-FD6DD893879B}|LeetCodeProblems\\LeetCodeProblems.csproj|c:\\presidio\\day14\\leetcodeproblems\\leetcodeproblems\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87580F2C-4E5E-443B-8915-FD6DD893879B}|LeetCodeProblems\\LeetCodeProblems.csproj|solutionrelative:leetcodeproblems\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87580F2C-4E5E-443B-8915-FD6DD893879B}|LeetCodeProblems\\LeetCodeProblems.csproj|c:\\presidio\\day14\\leetcodeproblems\\leetcodeproblems\\leetcodeproblems.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{87580F2C-4E5E-443B-8915-FD6DD893879B}|LeetCodeProblems\\LeetCodeProblems.csproj|solutionrelative:leetcodeproblems\\leetcodeproblems.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87580F2C-4E5E-443B-8915-FD6DD893879B}|LeetCodeProblems\\LeetCodeProblems.csproj|c:\\presidio\\day14\\leetcodeproblems\\leetcodeproblems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87580F2C-4E5E-443B-8915-FD6DD893879B}|LeetCodeProblems\\LeetCodeProblems.csproj|solutionrelative:leetcodeproblems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeetCodeProblems",
+              "DocumentMoniker": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj",
+              "RelativeDocumentMoniker": "LeetCodeProblems\\LeetCodeProblems.csproj",
+              "ToolTip": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj",
+              "RelativeToolTip": "LeetCodeProblems\\LeetCodeProblems.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-29T15:44:13.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Question1.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\Question1.cs",
+              "RelativeDocumentMoniker": "LeetCodeProblems\\Question1.cs",
+              "ToolTip": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\Question1.cs",
+              "RelativeToolTip": "LeetCodeProblems\\Question1.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAswEQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T15:42:47.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TreeNode.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\TreeNode.cs",
+              "RelativeDocumentMoniker": "LeetCodeProblems\\TreeNode.cs",
+              "ToolTip": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\TreeNode.cs",
+              "RelativeToolTip": "LeetCodeProblems\\TreeNode.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T15:40:41.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\Program.cs",
+              "RelativeDocumentMoniker": "LeetCodeProblems\\Program.cs",
+              "ToolTip": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\Program.cs",
+              "RelativeToolTip": "LeetCodeProblems\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T15:39:37.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

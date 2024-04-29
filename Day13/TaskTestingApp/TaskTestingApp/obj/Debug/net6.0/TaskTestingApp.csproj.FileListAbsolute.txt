@@ -1,0 +1,14 @@
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\obj\Debug\net6.0\TaskTestingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\obj\Debug\net6.0\TaskTestingApp.AssemblyInfoInputs.cache
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\obj\Debug\net6.0\TaskTestingApp.AssemblyInfo.cs
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\obj\Debug\net6.0\TaskTestingApp.csproj.CoreCompileInputs.cache
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\bin\Debug\net6.0\TaskTestingApp.exe
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\bin\Debug\net6.0\TaskTestingApp.deps.json
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\bin\Debug\net6.0\TaskTestingApp.runtimeconfig.json
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\bin\Debug\net6.0\TaskTestingApp.dll
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\bin\Debug\net6.0\TaskTestingApp.pdb
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\obj\Debug\net6.0\TaskTestingApp.dll
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\obj\Debug\net6.0\refint\TaskTestingApp.dll
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\obj\Debug\net6.0\TaskTestingApp.pdb
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\obj\Debug\net6.0\TaskTestingApp.genruntimeconfig.cache
+C:\Presidio\Day13\TaskTestingApp\TaskTestingApp\obj\Debug\net6.0\ref\TaskTestingApp.dll

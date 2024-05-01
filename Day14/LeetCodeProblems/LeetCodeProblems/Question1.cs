@@ -72,6 +72,7 @@ namespace LeetCodeProblems
             Question1 question1 = new Question1();
             Task <int> res = Task.Run(() => question1.MinDepthAsync(input));
             Console.WriteLine(res.Result);
+            Console.WriteLine((int)27 / 26);
             
 
 

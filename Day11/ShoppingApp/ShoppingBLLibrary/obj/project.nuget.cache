@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tT9oPpfIoxwv2GNKfZjzRphuppEmoZ1URkmt/RGXu0KunNdvVCUFY7+BXKFnw6rrkQIO2XCyWJFv9JBx8vCRNg==",
+  "dgSpecHash": "44FklzMBvlXtxDKtiXWO/oF7aBWgDrKrUdWMZPJRu9pgWA2nS8hYpV7mvSO2dg6cqeMVIMTJazkaSLtqCK99OQ==",
   "success": true,
-  "projectFilePath": "C:\\Presidio\\Day11\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
+  "projectFilePath": "C:\\Presidio\\Assignments_Presidio\\Day11\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

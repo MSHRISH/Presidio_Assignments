@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Presidio\\Day11\\ShoppingApp\\ShoppingApp\\ShoppingApp.csproj": {}
+    "C:\\Presidio\\Assignments_Presidio\\Day11\\ShoppingApp\\ShoppingApp\\ShoppingApp.csproj": {}
   },
   "projects": {
-    "C:\\Presidio\\Day11\\ShoppingApp\\ShoppingApp\\ShoppingApp.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day11\\ShoppingApp\\ShoppingApp\\ShoppingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day11\\ShoppingApp\\ShoppingApp\\ShoppingApp.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day11\\ShoppingApp\\ShoppingApp\\ShoppingApp.csproj",
         "projectName": "ShoppingApp",
-        "projectPath": "C:\\Presidio\\Day11\\ShoppingApp\\ShoppingApp\\ShoppingApp.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day11\\ShoppingApp\\ShoppingApp\\ShoppingApp.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day11\\ShoppingApp\\ShoppingApp\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day11\\ShoppingApp\\ShoppingApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zSPyqmPDPN7XAg9+7Kg+CNHcDn2a3bGrHgxc5zzOqzCmJdKuhCTlp4HgxrVSLvIqen1sbuycOAHPqB4WO7r+FA==",
+  "dgSpecHash": "LDJbZm3A9HB0Y9Yce8VG9jN6XIYR5AOQFcfzWY3zB6+yy87+aTsaZcRIeXlesgpl+UUDR7JEDG7nGsrTicjWRQ==",
   "success": true,
-  "projectFilePath": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingRepositoryTests\\ShoppingRepositoryTests.csproj",
+  "projectFilePath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingRepositoryTests\\ShoppingRepositoryTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VC\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\VC\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

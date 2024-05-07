@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj": {}
+    "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj",
         "projectName": "ModelLibrary",
-        "projectPath": "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ModelLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
         "projectName": "ShoppingBLLibrary",
-        "projectPath": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\ShoppingBLLibrary.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingBLLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,11 +98,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj": {
-                "projectPath": "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj"
+              "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj": {
+                "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj"
               },
-              "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
-                "projectPath": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj"
+              "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
+                "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
         "projectName": "ShoppingDALLibrary",
-        "projectPath": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ShoppingDALLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,8 +170,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj": {
-                "projectPath": "C:\\Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj"
+              "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj": {
+                "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day12\\ShoppingApp\\ModelLibrary\\ModelLibrary.csproj"
               }
             }
           }

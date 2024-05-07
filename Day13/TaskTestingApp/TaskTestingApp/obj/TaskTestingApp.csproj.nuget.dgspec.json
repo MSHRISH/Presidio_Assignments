@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\TaskTestingApp.csproj": {}
+    "C:\\Presidio\\Assignments_Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\TaskTestingApp.csproj": {}
   },
   "projects": {
-    "C:\\Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\TaskTestingApp.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\TaskTestingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\TaskTestingApp.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\TaskTestingApp.csproj",
         "projectName": "TaskTestingApp",
-        "projectPath": "C:\\Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\TaskTestingApp.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\TaskTestingApp.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day13\\TaskTestingApp\\TaskTestingApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

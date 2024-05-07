@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj": {}
+    "C:\\Presidio\\Assignments_Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj": {}
   },
   "projects": {
-    "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj",
         "projectName": "LeetCodeProblems",
-        "projectPath": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\LeetCodeProblems.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day14\\LeetCodeProblems\\LeetCodeProblems\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

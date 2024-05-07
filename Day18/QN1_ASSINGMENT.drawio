@@ -1,0 +1,237 @@
+<mxfile host="app.diagrams.net" modified="2024-05-07T14:30:51.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="r7Nd5DLYliyruB6Pi4HP" version="24.3.1" type="device">
+  <diagram name="Page-1" id="bDyeZA4b769u3q_mHhXo">
+    <mxGraphModel dx="1444" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-2" value="PRODUCTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-3" target="TVJOOB_j13ltB0Re6QNV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-3" value="PRODUCT NAME" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-4" target="TVJOOB_j13ltB0Re6QNV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-4" value="PRODUCT ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-5" target="TVJOOB_j13ltB0Re6QNV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-5" value="PRODUCT DESCRIPTION" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-6" target="TVJOOB_j13ltB0Re6QNV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-6" value="PRODUCT PRICE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-12" target="TVJOOB_j13ltB0Re6QNV-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-12" value="SUPPLIER DETAILS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-13" target="TVJOOB_j13ltB0Re6QNV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-13" value="SUPPLIER ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-14" target="TVJOOB_j13ltB0Re6QNV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-14" value="SUPPLIER NAME" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-15" target="TVJOOB_j13ltB0Re6QNV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-15" value="SUPPLIER PHONE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-20" target="TVJOOB_j13ltB0Re6QNV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-20" value="STOCK DETAILS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-21" target="TVJOOB_j13ltB0Re6QNV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-21" value="ITEM ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-22" target="TVJOOB_j13ltB0Re6QNV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-22" value="PRODUCT ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-23" value="SUPPLIER ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-24" target="TVJOOB_j13ltB0Re6QNV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-24" value="AVAILABLE STOCK" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-28" target="TVJOOB_j13ltB0Re6QNV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-28" value="HAS" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-31" target="TVJOOB_j13ltB0Re6QNV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-31" value="SUPPLIES" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-49" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-50" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-51" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-52" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-53" target="TVJOOB_j13ltB0Re6QNV-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-53" value="CUSTOMER DETAILS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-54" target="TVJOOB_j13ltB0Re6QNV-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-54" value="CUSTOMER ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-55" target="TVJOOB_j13ltB0Re6QNV-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-55" value="CUSTOMER NAME" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-56" target="TVJOOB_j13ltB0Re6QNV-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-56" value="CUSTOMER PHONE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-61" target="TVJOOB_j13ltB0Re6QNV-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-61" value="PURCHASE DETAILS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-62" target="TVJOOB_j13ltB0Re6QNV-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-62" value="PURCHASE ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1060" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-63" target="TVJOOB_j13ltB0Re6QNV-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-63" value="CUSTOMER ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-64" target="TVJOOB_j13ltB0Re6QNV-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-64" value="PURCHASED ON" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="940" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-65" target="TVJOOB_j13ltB0Re6QNV-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-65" value="TOTAL AMOUNT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-71" target="TVJOOB_j13ltB0Re6QNV-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-71" value="PURCHASES" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="770" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-76" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-81" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-83" target="TVJOOB_j13ltB0Re6QNV-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-83" value="BILLED ITEMS&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-84" target="TVJOOB_j13ltB0Re6QNV-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-84" value="ITEM ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-85" target="TVJOOB_j13ltB0Re6QNV-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-85" value="PURCHASE ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-86" target="TVJOOB_j13ltB0Re6QNV-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-86" value="QUANTITY" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="785" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-87" target="TVJOOB_j13ltB0Re6QNV-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-87" value="ITEM PRICE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-94" target="TVJOOB_j13ltB0Re6QNV-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-94" value="CONTAINS" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-98" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-100" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVJOOB_j13ltB0Re6QNV-103" target="TVJOOB_j13ltB0Re6QNV-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-103" value="CONTAINS" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-109" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVJOOB_j13ltB0Re6QNV-115" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

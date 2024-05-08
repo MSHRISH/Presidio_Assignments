@@ -1,0 +1,11 @@
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\bin\Debug\net6.0\ClinicBLLibrary.deps.json
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\bin\Debug\net6.0\ClinicBLLibrary.dll
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\bin\Debug\net6.0\ClinicBLLibrary.pdb
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.AssemblyInfoInputs.cache
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.AssemblyInfo.cs
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.csproj.CoreCompileInputs.cache
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.dll
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\obj\Debug\net6.0\refint\ClinicBLLibrary.dll
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\obj\Debug\net6.0\ClinicBLLibrary.pdb
+C:\Presidio\Day20\ClinicApp\ClinicBLLibrary\obj\Debug\net6.0\ref\ClinicBLLibrary.dll

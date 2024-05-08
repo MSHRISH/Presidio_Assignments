@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -38,8 +42,7 @@
               "RelativeToolTip": "ClinicModelLibrary\\Appointment.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAYwBMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:48:00.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T11:48:00.289Z"
             },
             {
               "$type": "Document",
@@ -49,7 +52,7 @@
               "RelativeDocumentMoniker": "ClinicDALLibrary\\ClinicAppointmentRepository.cs",
               "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day7\\ClinicApp\\ClinicDALLibrary\\ClinicAppointmentRepository.cs",
               "RelativeToolTip": "ClinicDALLibrary\\ClinicAppointmentRepository.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAkwCkAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T11:00:10.853Z",
               "EditorCaption": ""
@@ -64,8 +67,7 @@
               "RelativeToolTip": "ClinicDALLibrary\\IRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T10:53:07.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T10:53:07.631Z"
             }
           ]
         }

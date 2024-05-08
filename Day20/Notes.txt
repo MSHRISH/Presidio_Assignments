@@ -1,0 +1,14 @@
+Microsoft.EntityFramework.SqlServer -v 6.0
+Microsoft.EntityFramework.Tools -v 6.0
+
+ORM-Object Relation Mapping
+
+DB Connection String
+Data Source=DESKTOP-OGH34P9\TESTINSTANCE;Integrated Security=true;Initial Catalog=dbEmployeeTracker
+
+Scaffolding Command
+Scaffold-DbContext "Data Source=DESKTOP-OGH34P9\TESTINSTANCE;Integrated Security=true;Initial Catalog=pubs" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model
+
+Two approaches:
+	DB First Approach
+	Code First Approach

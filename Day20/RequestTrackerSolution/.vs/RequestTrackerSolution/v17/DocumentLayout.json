@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Presidio\\Day20\\RequestTrackerSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\presidio\\day20\\requesttrackersolution\\requesttrackerdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE055D59-1B3A-4FCE-B543-01F690941D8D}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\presidio\\day20\\requesttrackersolution\\requesttrackerbllibrary\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\presidio\\day20\\requesttrackersolution\\requesttrackerbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E90EC55-371E-489E-82AE-4F0DB85870D1}|RequestTrackerApp\\RequestTrackerApp.csproj|c:\\presidio\\day20\\requesttrackersolution\\requesttrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E90EC55-371E-489E-82AE-4F0DB85870D1}|RequestTrackerApp\\RequestTrackerApp.csproj|solutionrelative:requesttrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\presidio\\day20\\requesttrackersolution\\requesttrackerbllibrary\\duplicatedepartmentnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF8A004-47A1-4CF8-BF59-BC9D57C58022}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\duplicatedepartmentnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerApp\\Program.cs",
+              "RelativeDocumentMoniker": "RequestTrackerApp\\Program.cs",
+              "ToolTip": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerApp\\Program.cs",
+              "RelativeToolTip": "RequestTrackerApp\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T09:31:38.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerDALLibrary\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerDALLibrary\\DepartmentRepository.cs",
+              "RelativeToolTip": "RequestTrackerDALLibrary\\DepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:24:47.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DuplicateDepartmentNameException.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerBLLibrary\\DuplicateDepartmentNameException.cs",
+              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\DuplicateDepartmentNameException.cs",
+              "ToolTip": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerBLLibrary\\DuplicateDepartmentNameException.cs",
+              "RelativeToolTip": "RequestTrackerBLLibrary\\DuplicateDepartmentNameException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:23:32.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerBLLibrary\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\IDepartmentService.cs",
+              "ToolTip": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerBLLibrary\\IDepartmentService.cs",
+              "RelativeToolTip": "RequestTrackerBLLibrary\\IDepartmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T09:27:48.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentBL.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerBLLibrary\\DepartmentBL.cs",
+              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\DepartmentBL.cs",
+              "ToolTip": "C:\\Presidio\\Day20\\RequestTrackerSolution\\RequestTrackerBLLibrary\\DepartmentBL.cs",
+              "RelativeToolTip": "RequestTrackerBLLibrary\\DepartmentBL.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAzwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T07:21:26.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

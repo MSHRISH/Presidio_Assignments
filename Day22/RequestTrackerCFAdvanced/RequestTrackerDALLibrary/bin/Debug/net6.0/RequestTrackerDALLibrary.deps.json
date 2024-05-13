@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "RequestTrackerDALLibrary/1.0.0": {
         "dependencies": {
-          "Models": "1.0.0",
-          "RequestTrackerCFAdvanced": "1.0.0"
+          "Models": "1.0.0"
         },
         "runtime": {
           "RequestTrackerDALLibrary.dll": {}
@@ -470,14 +469,6 @@
         "runtime": {
           "Models.dll": {}
         }
-      },
-      "RequestTrackerCFAdvanced/1.0.0": {
-        "dependencies": {
-          "Models": "1.0.0"
-        },
-        "runtime": {
-          "RequestTrackerCFAdvanced.dll": {}
-        }
       }
     }
   },
@@ -768,11 +759,6 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "RequestTrackerCFAdvanced/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

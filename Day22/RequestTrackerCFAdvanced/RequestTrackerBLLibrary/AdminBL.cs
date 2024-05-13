@@ -22,8 +22,12 @@ namespace RequestTrackerBLLibrary
         }
         public async Task<int> GenerateRequestId()
         {
-            var employees = await _RequestRepository.GetAll();
-            int id = employees.Max(x => x.RequestId);
+            var request= await _RequestRepository.GetAll();
+            if (request.Count == 0)
+            {
+                return 1;
+            }
+            int id = request.Max(x => x.RequestId);
             return ++id;
         }
         public async Task<int> RaiseRequest(string RequestMessage, int EmployeeId)
@@ -52,14 +56,18 @@ namespace RequestTrackerBLLibrary
         }
         public async Task<int> GenerateFeedbackId()
         {
-            var employees = await _FeedbackRepository.GetAll();
-            int id = employees.Max(x => x.FeedbackId);
+            var feedback= await _FeedbackRepository.GetAll();
+            if (feedback.Count == 0)
+            {
+                return 1;
+            }
+            int id = feedback.Max(x => x.FeedbackId);
             return ++id;
         }
         public async Task<int> GiveFeedback(int EmployeeId, float Rating, string Remarks, int SolutionId)
         {
             Solution solution=await _SolutionRepository.GetByKey(SolutionId);
-            Request request=await _RequestRepository.GetByKey(EmployeeId);
+            Request request=await _RequestRepository.GetByKey(solution.RequestId);
             if (request.RequestRaisedBy != EmployeeId)
             {
                 return -1;
@@ -78,27 +86,23 @@ namespace RequestTrackerBLLibrary
         public async Task<bool> RespondToSolution(int SolutionId, string Response, int EmployeeId)
         {
             Solution solution=await _SolutionRepository.GetByKey(SolutionId);
-            Request request = await _RequestRepository.GetByKey(EmployeeId);
+            Request request = await _RequestRepository.GetByKey(solution.RequestId);
             if (request.RequestRaisedBy != EmployeeId)
             {
                 return false;
             }
-            var solutions = await _SolutionRepository.GetAll();
-            foreach (var sol in solutions)
-            {
-                if (sol.SolutionId == SolutionId)
-                {
-                    sol.RequestRaiserComment = Response;
-                    return  true;
-                }
-            }
-
-            return false;
+            solution.RequestRaiserComment = Response;
+            var UpdatedSolution=_SolutionRepository.Update(solution);
+            return true;
         }
         public async Task<int> GenerateSolutionId()
         {
-            var employees = await _FeedbackRepository.GetAll();
-            int id = employees.Max(x => x.FeedbackId);
+            var solution= await _FeedbackRepository.GetAll();
+            if (solution.Count == 0)
+            {
+                return 1;
+            }
+            int id = solution.Max(x => x.FeedbackId);
             return ++id;
         }
         public async Task<int> ProvideSolution(int RequestId, string SolutionDescription, int EmployeeId)
@@ -111,7 +115,7 @@ namespace RequestTrackerBLLibrary
             return AddedSolution.SolutionId;
         }
 
-        public async Task<bool> CloseRequest(int RequestId, ,int EmployeeId)
+        public async Task<bool> CloseRequest(int RequestId, int EmployeeId)
         {
             Request request=await _RequestRepository.GetByKey(RequestId);
             if (request == null)
@@ -124,10 +128,7 @@ namespace RequestTrackerBLLibrary
             return true;
         }
 
-        public Task<bool> CloseRequest(int RequestId, int EmployeeId)
-        {
-            throw new NotImplementedException();
-        }
+
 
         public async Task<IList<SolutionFeedback>> ViewFeedbacks(int EmployeeId)
         {
@@ -136,7 +137,11 @@ namespace RequestTrackerBLLibrary
             foreach (var Feedback in AllFeedbacks)
             {
                 Solution solution = await _SolutionRepository.GetByKey(Feedback.SolutionId);
-                Request request = await _RequestRepository.GetByKey(EmployeeId);
+                Request request = await _RequestRepository.GetByKey(solution.RequestId);
+                if (request.RequestRaisedBy== EmployeeId)
+                {
+                    result.Add(Feedback);
+                }
 
             }
             return result;

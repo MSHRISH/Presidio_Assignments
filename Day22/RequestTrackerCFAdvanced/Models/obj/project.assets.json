@@ -2018,11 +2018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj",
+      "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-      "outputPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\obj\\",
+      "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

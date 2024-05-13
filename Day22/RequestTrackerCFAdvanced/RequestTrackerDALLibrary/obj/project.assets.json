@@ -750,19 +750,6 @@
         "runtime": {
           "bin/placeholder/Models.dll": {}
         }
-      },
-      "RequestTrackerCFAdvanced/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Models": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/RequestTrackerCFAdvanced.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/RequestTrackerCFAdvanced.dll": {}
-        }
       }
     }
   },
@@ -1933,17 +1920,11 @@
       "type": "project",
       "path": "../Models/Models.csproj",
       "msbuildProject": "../Models/Models.csproj"
-    },
-    "RequestTrackerCFAdvanced/1.0.0": {
-      "type": "project",
-      "path": "../RequestTrackerCFAdvanced/RequestTrackerCFAdvanced.csproj",
-      "msbuildProject": "../RequestTrackerCFAdvanced/RequestTrackerCFAdvanced.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Models >= 1.0.0",
-      "RequestTrackerCFAdvanced >= 1.0.0"
+      "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1953,11 +1934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj",
+      "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj",
       "projectName": "RequestTrackerDALLibrary",
-      "projectPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj",
+      "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj",
       "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-      "outputPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\obj\\",
+      "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1979,11 +1960,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj": {
-              "projectPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj"
-            },
-            "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj": {
-              "projectPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj"
+            "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj": {
+              "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj"
             }
           }
         }

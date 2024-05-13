@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj": {}
+    "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj": {}
   },
   "projects": {
-    "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj",
-        "projectName": "RequestTrackerCFAdvanced",
-        "projectPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj",
+        "projectName": "RequestTrackerBLLibrary",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerBLLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,8 +110,83 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj": {
-                "projectPath": "C:\\Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj"
+              "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj": {
+                "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj"
+              },
+              "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj": {
+                "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj",
+        "projectName": "RequestTrackerCFAdvanced",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced.csproj",
+        "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerCFAdvanced\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj": {
+                "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj"
+              },
+              "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj": {
+                "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj"
               }
             }
           }
@@ -138,6 +213,75 @@
               "version": "[6.0.29, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj",
+        "projectName": "RequestTrackerDALLibrary",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj",
+        "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\RequestTrackerDALLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj": {
+                "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day22\\RequestTrackerCFAdvanced\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

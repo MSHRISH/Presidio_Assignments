@@ -9,7 +9,8 @@
       "RequestTrackerCFAdvanced/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "6.0.29",
-          "Models": "1.0.0"
+          "Models": "1.0.0",
+          "RequestTrackerBLLibrary": "1.0.0"
         },
         "runtime": {
           "RequestTrackerCFAdvanced.dll": {}
@@ -490,6 +491,23 @@
         "runtime": {
           "Models.dll": {}
         }
+      },
+      "RequestTrackerBLLibrary/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0",
+          "RequestTrackerDALLibrary": "1.0.0"
+        },
+        "runtime": {
+          "RequestTrackerBLLibrary.dll": {}
+        }
+      },
+      "RequestTrackerDALLibrary/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "RequestTrackerDALLibrary.dll": {}
+        }
       }
     }
   },
@@ -794,6 +812,16 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RequestTrackerBLLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RequestTrackerDALLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

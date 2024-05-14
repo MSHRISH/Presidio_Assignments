@@ -51,6 +51,7 @@ namespace RequestTrackerBLLibrary
             return null; 
         }
 
+        //D
         public async Task<IList<Solution>> ViewSolutions(int RequestId)
         {
             var solutions = await _SolutionRepository.GetAll();
@@ -87,6 +88,7 @@ namespace RequestTrackerBLLibrary
             return AddedFeedback.FeedbackId;
         }
 
+        //Change req.
         public async Task<bool> RespondToSolution(int SolutionId, string Response)
         {
             var solutions = await _SolutionRepository.GetAll();

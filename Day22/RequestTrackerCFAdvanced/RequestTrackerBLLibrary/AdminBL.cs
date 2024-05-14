@@ -64,6 +64,7 @@ namespace RequestTrackerBLLibrary
             int id = feedback.Max(x => x.FeedbackId);
             return ++id;
         }
+        //D
         public async Task<int> GiveFeedback(int EmployeeId, float Rating, string Remarks, int SolutionId)
         {
             Solution solution=await _SolutionRepository.GetByKey(SolutionId);
@@ -72,6 +73,7 @@ namespace RequestTrackerBLLibrary
             {
                 return -1;
             }
+
             SolutionFeedback feedback = new SolutionFeedback();
             feedback.FeedbackBy = EmployeeId;
             feedback.Rating = Rating;

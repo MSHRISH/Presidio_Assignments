@@ -97,6 +97,7 @@ namespace RequestTrackerBLLibrary
                 if (solution.SolutionId== SolutionId)
                 {
                     solution.RequestRaiserComment = Response;
+                    _SolutionRepository.Update(solution);
                     return true;
                 }
             }

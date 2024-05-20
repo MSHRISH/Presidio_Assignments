@@ -23,6 +23,155 @@ namespace RequestTrackerCFAdvanced
             Console.WriteLine("Loggin Failed");
             return;
          }
+        public static void AdminLogin()
+        {
+            Console.WriteLine("Enter Employee ID: ");
+            int EmployeeId = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Password: ");
+            string Password = Console.ReadLine();
+            EmployeeLoginBL employeeLoginBL = new EmployeeLoginBL();
+            bool Login=employeeLoginBL.AdminLogin(EmployeeId,Password).GetAwaiter().GetResult();
+            if (Login)
+            {
+                Console.WriteLine($"User Logged in as {EmployeeId}");
+                AdminMenu(EmployeeId);
+            }
+            Console.WriteLine("Loggin Failed");
+            return;
+        }
+        public static void AdminMenu(int EmployeeId)
+        {
+            AdminBL adminBL = new AdminBL();
+            while (true)
+            {
+                Console.WriteLine("Admin Menu: ");
+                Console.WriteLine("1. Raise Request");
+                Console.WriteLine("2. View Request Status (All Requests)");
+                Console.WriteLine("3. View Solutions (All Solutions)");
+                Console.WriteLine("4.Give Feedback (Only for request raised by them)");
+                Console.WriteLine("5. Respond to Solution(Only for request raised by them)");
+                Console.WriteLine("6. Provide Solution");
+                Console.WriteLine("7.Mark Request as Closed");
+                Console.WriteLine("8. View Feedbacks(Only feedbacks given to them)");
+                Console.WriteLine("9. Exit");
+                int choice=Convert.ToInt32(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
+                        RaiseRequestAdmin(EmployeeId,adminBL);
+                        break;
+                    case 2:
+                        ViewAllRequestAdmin(adminBL);
+                        break;
+                    case 3:
+                        ViewAllSolutionsAdmin(adminBL);
+                        break;
+                    case 4:
+                        GiveFeedback(adminBL, EmployeeId);
+                        break;
+                    case 5:
+                        RespondToSolution(adminBL,EmployeeId);
+                        break;
+                    case 6:
+                        ProvideSolution(adminBL,EmployeeId);
+                        break;
+                    case 7:
+                        MarkRequestClosed(adminBL, EmployeeId);
+                        break;
+                    case 8:
+                        ViewFeedbacks(adminBL, EmployeeId);
+                        break;
+                    case 9:
+                        return;
+                    default:
+                        break;
+                }
+            }
+        }
+        public static void ViewFeedbacks(AdminBL adminBL,int EmployeeId)
+        {
+            var Feedbacks=adminBL.ViewFeedbacks(EmployeeId).GetAwaiter().GetResult();
+            foreach(var f in Feedbacks)
+            {
+                Console.WriteLine($"FeedBackID: {f.FeedbackId} \n Rating: {f.Rating} \n Remarks: {f.Remarks} \n SolutionID {f.SolutionId} \n FeedbackDate: {f.FeedbackDate} \n");
+            }
+        }
+        public static void MarkRequestClosed(AdminBL adminBL,int EmployeeId)
+        {
+            Console.WriteLine("Enter Request ID: ");
+            int requestID=Convert.ToInt32(Console.ReadLine()) ;
+            var res = adminBL.CloseRequest(requestID, EmployeeId).GetAwaiter().GetResult();
+            Console.WriteLine("Request Marked as Closed ");
+            return;
+        }
+        public static void ProvideSolution(AdminBL adminBL,int EmployeeId)
+        {
+            Console.WriteLine("Enter RequestID");
+            int requestId=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Solution Description: ");
+            string solutionDescription=Console.ReadLine();
+            var solutionID=adminBL.ProvideSolution(requestId, solutionDescription,EmployeeId).GetAwaiter().GetResult();
+            Console.WriteLine($"Solution Provided with Solution Id: {solutionID}");
+        }
+        public static void RespondToSolution(AdminBL adminBL,int EmployeeId)
+        {
+            Console.WriteLine("Enter SolutionID: ");
+            int solutionId=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Response: ");
+            string response=Console.ReadLine();
+            var res= adminBL.RespondToSolution(solutionId, response, EmployeeId).GetAwaiter().GetResult();
+            if (res == false)
+            {
+                Console.WriteLine("Invalid SolutionId");
+                return;
+            }
+            Console.WriteLine("Responded To Solution");
+            return;
+
+        }
+        public static void GiveFeedback(AdminBL adminBL,int EmployeeId)
+        {
+            Console.WriteLine("Enter SolutionId: ");
+            int SolutionId=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Rating: ");
+            float rating=float.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Remarks: ");
+            string remarks=Console.ReadLine();
+            int FeedbackId = adminBL.GiveFeedback(EmployeeId, rating, remarks, SolutionId).GetAwaiter().GetResult();
+            if (FeedbackId == -1)
+            {
+                Console.WriteLine("Invalid Solution Id");
+                return;
+            }
+            Console.WriteLine($"Feedback Given with Id: {FeedbackId}");
+            return;
+        }
+        public static void ViewAllSolutionsAdmin(AdminBL adminBL)
+        {
+            var Solutions=adminBL.ViewAllSolutions().GetAwaiter().GetResult();
+            foreach (var s in Solutions) 
+            {
+                Console.WriteLine($"Solution Id: {s.SolutionId} \n Request Id: {s.RequestId} \n Solution Description: {s.SolutionDescription} \n Solved By: {s.SolvedBy} \n Solved Date: {s.SolvedDate} \n Is Solved: {s.IsSolved} \n Comment: {s.RequestRaiserComment} \n");            
+            }
+            return;
+        }
+        public static void RaiseRequestAdmin(int EmployeeId,AdminBL adminBL)
+        {
+            Console.WriteLine("Enter RequestMessage: ");
+            string RequestMessage = Console.ReadLine();
+            int RequestId = adminBL.RaiseRequest(RequestMessage, EmployeeId).GetAwaiter().GetResult();
+            Console.WriteLine("Request Raised With Id: " + RequestId);
+            return;
+        }
+        public static void ViewAllRequestAdmin(AdminBL adminBL)
+        {
+            var Requests = adminBL.ViewRequestStatus().GetAwaiter().GetResult();
+            foreach(var r in Requests)
+            {
+                Console.WriteLine($"Request ID: {r.Item1} Status {r.Item2}");
+            }
+            return;
+        }
         public static void UserMenu(int EmployeeId)
         {
             UserBL userBL = new UserBL();
@@ -129,6 +278,9 @@ namespace RequestTrackerCFAdvanced
                 {
                     case 1:
                         UserLogin();
+                        break;
+                    case 2:
+                        AdminLogin();
                         break;
                     case 3:
                         return;

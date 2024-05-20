@@ -24,15 +24,5 @@ namespace Models
         public bool IsSolved { get; set; } = false;
         public string RequestRaiserComment { get; set; }
         public ICollection<SolutionFeedback> Feedbacks { get; set; }
-        public override string ToString()
-        {
-            return $"Solution ID: {SolutionId}\n" +
-                $"Request ID: {RequestId}\n" +
-                $"Solution Description: {SolutionDescription}\n" +
-                $"Solved By Employee ID: {SolvedBy}\n" +
-                $"Solved Date: {SolvedDate}\n" +
-                $"Is Solved: {IsSolved}\n" +
-                $"Request Raiser Comment: {RequestRaiserComment ?? "No Comments Yet...."}\n";
-        }
     }
 }

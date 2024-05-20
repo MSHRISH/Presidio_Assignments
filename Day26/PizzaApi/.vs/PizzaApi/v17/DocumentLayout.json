@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Presidio\\Day26\\PizzaApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\day26\\pizzaapi\\pizzaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\day26\\pizzaapi\\pizzaapi\\controllers\\userservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\controllers\\userservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\day26\\pizzaapi\\pizzaapi\\controllers\\userauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\controllers\\userauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\day26\\pizzaapi\\pizzaapi\\contexts\\pizzaapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\contexts\\pizzaapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\day26\\pizzaapi\\pizzaapi\\execptions\\invalidcredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\execptions\\invalidcredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserServicesController.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Controllers\\UserServicesController.cs",
+              "RelativeDocumentMoniker": "PizzaApi\\Controllers\\UserServicesController.cs",
+              "ToolTip": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Controllers\\UserServicesController.cs",
+              "RelativeToolTip": "PizzaApi\\Controllers\\UserServicesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:18:37.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PizzaAPIContext.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Contexts\\PizzaAPIContext.cs",
+              "RelativeDocumentMoniker": "PizzaApi\\Contexts\\PizzaAPIContext.cs",
+              "ToolTip": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Contexts\\PizzaAPIContext.cs",
+              "RelativeToolTip": "PizzaApi\\Contexts\\PizzaAPIContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:18:34.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Program.cs",
+              "RelativeDocumentMoniker": "PizzaApi\\Program.cs",
+              "ToolTip": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Program.cs",
+              "RelativeToolTip": "PizzaApi\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwDMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T20:10:10.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserAuthenticationController.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Controllers\\UserAuthenticationController.cs",
+              "RelativeDocumentMoniker": "PizzaApi\\Controllers\\UserAuthenticationController.cs",
+              "ToolTip": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Controllers\\UserAuthenticationController.cs",
+              "RelativeToolTip": "PizzaApi\\Controllers\\UserAuthenticationController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwB0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:38:01.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvalidCredentials.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Execptions\\InvalidCredentials.cs",
+              "RelativeDocumentMoniker": "PizzaApi\\Execptions\\InvalidCredentials.cs",
+              "ToolTip": "C:\\Presidio\\Day26\\PizzaApi\\PizzaApi\\Execptions\\InvalidCredentials.cs",
+              "RelativeToolTip": "PizzaApi\\Execptions\\InvalidCredentials.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:14:05.348Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

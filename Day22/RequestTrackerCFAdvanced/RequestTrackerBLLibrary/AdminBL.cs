@@ -33,7 +33,7 @@ namespace RequestTrackerBLLibrary
         public async Task<int> RaiseRequest(string RequestMessage, int EmployeeId)
         {
             Request request = new Request();
-            request.RequestId = await GenerateRequestId();
+            //request.RequestId = await GenerateRequestId();
             request.RequestMessage = RequestMessage;
             request.RequestRaisedBy = EmployeeId;
             var AddedRequest = await _RequestRepository.Add(request);
@@ -80,7 +80,7 @@ namespace RequestTrackerBLLibrary
             feedback.Remarks = Remarks;
             feedback.FeedbackDate = DateTime.Now;
             feedback.SolutionId = SolutionId;
-            feedback.FeedbackId = await GenerateFeedbackId();
+            //feedback.FeedbackId = await GenerateFeedbackId();
             var AddedFeedback = await _FeedbackRepository.Add(feedback);
             return AddedFeedback.FeedbackId;
         }
@@ -113,6 +113,8 @@ namespace RequestTrackerBLLibrary
             solution.SolutionDescription = SolutionDescription;
             solution.SolvedBy = EmployeeId;
             solution.SolvedDate=DateTime.Now;
+            solution.RequestId = RequestId;
+            solution.RequestRaiserComment = "";
             var AddedSolution = await _SolutionRepository.Add(solution);
             return AddedSolution.SolutionId;
         }

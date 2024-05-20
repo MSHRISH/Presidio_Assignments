@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\services\\requestservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\services\\requestservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\interfaces\\irequestservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\interfaces\\irequestservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\Request.cs",
+              "ToolTip": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\Request.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:55:59.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestController.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
+              "ToolTip": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAuwFYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:42:04.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestServices.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\RequestServices.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\RequestServices.cs",
+              "ToolTip": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\RequestServices.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Services\\RequestServices.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAuwDoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:40:17.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRequestServices.cs",
+              "DocumentMoniker": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\IRequestServices.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Interfaces\\IRequestServices.cs",
+              "ToolTip": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\IRequestServices.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Interfaces\\IRequestServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:39:59.106Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

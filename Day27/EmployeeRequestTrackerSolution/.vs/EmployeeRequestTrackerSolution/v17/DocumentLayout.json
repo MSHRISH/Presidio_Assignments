@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\",
+  "WorkspaceRootPath": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\services\\requestservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\services\\requestservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\assignments_presidio\\day27\\employeerequesttrackersolution\\employeerequesttrackerapi\\controllers\\employeeauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\employeeauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\assignments_presidio\\day27\\employeerequesttrackersolution\\employeerequesttrackerapi\\services\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\services\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\interfaces\\irequestservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\interfaces\\irequestservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\day24\\employeerequesttrackersolution\\employeerequesttrackerapi\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\presidio\\assignments_presidio\\day27\\employeerequesttrackersolution\\employeerequesttrackerapi\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41194FFD-BB35-4C94-B9FB-5D9C4FE0C7EC}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +34,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Request.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\Request.cs",
-              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\Request.cs",
-              "ToolTip": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\Request.cs",
-              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\Request.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "DocumentIndex": 0,
+              "Title": "EmployeeAuthenticationController.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\EmployeeAuthenticationController.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\EmployeeAuthenticationController.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\EmployeeAuthenticationController.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Controllers\\EmployeeAuthenticationController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwB0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:55:59.613Z"
+              "WhenOpened": "2024-05-27T09:23:05.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RequestController.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
-              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
-              "ToolTip": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
-              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Controllers\\RequestController.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAuwFYAAABDAAAA",
+              "Title": "AuthenticationServices.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\AuthenticationServices.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\AuthenticationServices.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\AuthenticationServices.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Services\\AuthenticationServices.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:42:04.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RequestServices.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\RequestServices.cs",
-              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\RequestServices.cs",
-              "ToolTip": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\RequestServices.cs",
-              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Services\\RequestServices.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAuwDoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:40:17.002Z",
+              "WhenOpened": "2024-05-27T09:03:46.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IRequestServices.cs",
-              "DocumentMoniker": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\IRequestServices.cs",
-              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Interfaces\\IRequestServices.cs",
-              "ToolTip": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\IRequestServices.cs",
-              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Interfaces\\IRequestServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
+              "Title": "AuthenticationRepository.cs",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Repositories\\AuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Repositories\\AuthenticationRepository.cs",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Repositories\\AuthenticationRepository.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Repositories\\AuthenticationRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:39:59.106Z"
+              "WhenOpened": "2024-05-27T06:13:53.611Z",
+              "EditorCaption": ""
             }
           ]
         }

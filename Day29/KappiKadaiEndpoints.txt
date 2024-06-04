@@ -32,6 +32,9 @@ Endpoints:
 	-User Register(By Default their State is Active)
 	-Update User(Authorize User Only)(User can update their Details only. Can't update other's details).
 	-Get My Details(Authorize User Only)(User can get their details only)
-	-Delete User(Authorize User Only)()
+	-Delete User(Authorize User Only)(Soft Delete)
 
+*Order Endpoints:
+	-Make an Order(Authorize User Only)
+	-Add Items to an Order(Authorize User Only)()
 	

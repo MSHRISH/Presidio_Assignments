@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj": {}
+    "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj": {
+    "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj",
+        "projectUniqueName": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj",
         "projectName": "EmployeeRequestTrackerAPI",
-        "projectPath": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj",
+        "projectPath": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Presidio\\Day24\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\obj\\",
+        "outputPath": "C:\\Presidio\\Assignments_Presidio\\Day27\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

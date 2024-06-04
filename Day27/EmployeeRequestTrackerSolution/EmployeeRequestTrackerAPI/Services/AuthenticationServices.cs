@@ -73,7 +73,7 @@ namespace EmployeeRequestTrackerAPI.Services
                 employeeAuthentication.EmployeeId = employee.Id;
                 employeeAuthentication = await _authenticationRepository.Add(employeeAuthentication);
                 ((RegisterDTO)employee).Password = string.Empty;
-                return employee;
+                return employee;    
             }
             catch (Exception ex) { }
             if (employee != null)

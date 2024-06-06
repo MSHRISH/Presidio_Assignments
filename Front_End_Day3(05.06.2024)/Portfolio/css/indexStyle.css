@@ -1,0 +1,42 @@
+.NavBar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.NavBar-Item{
+    border: 1px;
+    border-color: snow;
+    border-style: solid;
+    margin: 10px;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+    padding: 0 10px;
+    height: 50px;
+
+    box-shadow: 3px 3px 5px gray;
+
+    flex: 15%;
+}
+
+.NavBar-Item h3, .NavBar-Item h6{
+    margin: 0;
+    padding: 0 ;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .NavBar-Item {
+    flex:50%
+  }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }

@@ -1,0 +1,12 @@
+section{
+    background-color:grey;
+    width: 500px;
+}
+
+.td-label{
+    text-align: right;
+}
+
+.td-input{
+    text-align: left;
+}

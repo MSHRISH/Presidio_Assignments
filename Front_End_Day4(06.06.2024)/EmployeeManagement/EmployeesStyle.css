@@ -1,0 +1,45 @@
+.employee{
+    float: left;
+    margin: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    width: 210px;
+    height: 500px;
+    align-items: center;
+    flex: 30%;
+    align-items: center;
+
+}
+
+.EmpDetails{
+    border: 2px solid black;
+    margin: 10px;
+    width: 190px;
+    height: auto;
+    
+}
+
+.EmpImage{
+    background-color: black;
+    border: 1px black;
+    border-style: ridge;
+    margin: 5px;
+    width: 100px;
+} 
+
+* {
+    box-sizing: border-box;
+ }
+
+ .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-employee-left {
+    padding: 10px;
+    flex: 33%;
+}
+
+
+

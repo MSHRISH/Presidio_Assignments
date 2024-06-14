@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+
+            width: 500px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    <h1>Product Data</h1>
+    <div style="overflow-y: scroll; display: block; height: 200px;">
+        <table id="product-table">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Product 1</td>
+                <td>$10.00</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Product 2</td>
+                <td>$15.00</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Product 3</td>
+                <td>$20.00</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div>
+        <h5>Add to Table</h5>
+        <form id="addproduct-form">
+            <div>
+                <label>Product Name:</label>
+                <input type="text" id="product-name" required pattern=".{5,20}">
+                <p class="" id="name-error" style="color: red;" hidden>Please provide valid product name.</p>
+            </div>
+            <br>
+            <div>
+                <label>Product Price: </label>
+                <input type="number" step="0.01" id="product-price" required pattern="[1-9][0-9]*">
+                <p class="" id="price-error" style="color: red;" hidden>Please provide valid product price.</p>
+            </div>
+            <br>
+            <div>
+                <label>Product Quantity:</label>
+                <input type="number" min="0" step="1" id="product-quantity" pattern="[1-9][0-9]*"  required >
+                <p class="" id="quantity-error" style="color: red;" hidden>Please provide valid product quantity.</p>
+
+            </div>
+            <div>
+                <button type="button" onclick="addProduct()">Add Item</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
+
+<script>
+    document.getElementById("product-name").addEventListener("input",function(event){
+        if(!document.getElementById("product-name").validity.valid  ){
+            document.getElementById("name-error").hidden=false;
+        }
+        else{
+            document.getElementById("name-error").hidden=true;
+        }
+    });
+
+    document.getElementById("product-price").addEventListener("input",function(event){
+        if(!document.getElementById("product-price").validity.valid  ){
+            document.getElementById("price-error").hidden=false;
+        }
+        else{
+            document.getElementById("phone-error").hidden=true;
+        }
+    });
+
+    document.getElementById("product-quantity").addEventListener("input",function(event){
+        if(!document.getElementById("product-quantity").validity.valid  ){
+            document.getElementById("quantity-error").hidden=false;
+        }
+        else{
+            document.getElementById("quantity-error").hidden=true;
+        }
+    });
+    function addProduct(){
+        const name=document.getElementById("product-name").value;
+        const price=parseFloat(document.getElementById("product-price").value).toFixed(2);
+        const quantity=parseInt(document.getElementById("product-quantity").value);
+
+        if(name===""||price===""||quantity===""){
+            alert("Please input all fields");
+            return;
+        }
+        const table=document.getElementById("product-table");
+        const rows = table.getElementsByTagName('tr');
+        for(let i=1;i<rows.length;i++){
+            const cell=rows[i].getElementsByTagName('td')[1];
+            if(cell.textContent===name){
+                alert(`Product ${name} already exists`);
+                return;
+            }
+        }
+
+        const newID=table.rows.length;
+
+        const newRow = table.insertRow();
+
+        const cell1 = newRow.insertCell(0);
+        const cell2 = newRow.insertCell(1);
+        const cell3 = newRow.insertCell(2);
+        const cell4 = newRow.insertCell(3);
+
+        cell1.textContent = newID;
+        cell2.textContent = name;
+        cell3.textContent = `$${price}`;
+        cell4.textContent = quantity;
+
+        document.getElementById("addproduct-form").reset();
+    }
+</script>

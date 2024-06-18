@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+         .error{
+            border:red 2px solid;
+            box-shadow: 5px 5px pink;
+        }
+        .correct {
+            border: green 2px solid;
+            box-shadow: 5px 5px lightgreen;
+        }
+    </style>
+</head>
+<body class="bg-slate-400 flex flex-col justify-center items-center h-screen">
+    <div class="flex flex-col justify-center items-center border-2 border-gray-950 h-auto w-auto rounded-lg shadow-lg shadow-gray-900">
+        <div class="">
+            <form>
+                    <div class="m-6">
+                        <label>Name:</label>
+                        <input type="text" class="rounded placeholder:p-2 border-2 " id="form-name" placeholder="Enter Name" pattern="^[A-Za-z]{3,50}$" required>
+                        <p class="absolute text-xs ml-14 text-red-800 hidden mt-1" id="name-error">Please enter valid name</p>
+                    </div>
+                    <div class="m-6">
+                        <label>Phone:</label>
+                        <input type="text" class="rounded placeholder:p-2 border-2 " id="form-phone" placeholder="Enter Phone Number" pattern="^\d{10}$" required>
+                        <p class="absolute text-xs ml-14 text-red-800 hidden mt-1" id="phone-error">Please enter valid Phone Number</p>
+                    </div>
+                    <div class="m-6">
+                        <label>DOB:</label>
+                        <input type="date" class="rounded placeholder:p-2 border-2 " id="form-DOB" placeholder="" required>
+                        <p class="absolute text-xs ml-14 text-red-800 hidden mt-1" id="DOB-error">Must be 18 years old or above</p>
+                    </div>
+                    <div class="m-6">
+                        <label>Age:</label>
+                        <input type="number" class="rounded placeholder:p-2 border-2 w-[70px] " id="form-age" placeholder="" required readonly>
+                    </div>
+                    <div class="m-6">
+                        <label>Email:</label>
+                        <input type="email" class="rounded placeholder:p-2 border-2 " id="form-email" placeholder="Enter email" required>
+                        <p class="absolute text-xs ml-14 text-red-800 hidden mt-1" id="email-error">Please enter valid email</p>
+                    </div>
+                    <div class="m-6 flex flex-row gap-1">
+                        <label>Gender:</label>
+                        <div>
+                            <input type="radio" id="male" name="gender" value="Male" required>
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="Female" required>
+                            <label for="female">Female</label>
+                        </div>
+                        <p class="absolute text-xs ml-14 text-red-800 hidden mt-1" id="email-error">Please enter valid email</p>
+                    </div>
+                    <div class="m-6 flex flex-row gap-1">
+                        <label>Qualification:</label>
+                        <div>
+                            <div class="flex flex-col">
+                                <div>
+                                    <input type="checkbox" id="bachelor" name="qualification" value="Bachelor">
+                                <label for="bachelor">Bachelor</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="master" name="qualification" value="Master">
+                                    <label for="master">Master</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="phd" name="qualification" value="PhD">
+                                    <label for="phd">PhD</label>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="absolute text-xs ml-14 text-red-800 hidden mt-1" id="email-error">Please enter valid email</p>
+                    </div>
+                    <div class="m-6">
+                        <label>Profession:</label>
+                        <select class="" id="form-profession" name="profession" required>
+                            <option value="">Select a profession</option>
+                        </select>
+                        <p class="absolute text-xs ml-14 text-red-800 hidden mt-1" id="email-error">Please enter valid email</p>
+                    </div>
+                    <div class="m-6">
+                        <label>Add New Profession:</label>
+                        <input type="text" class="rounded placeholder:p-2 border-2 " id="form-new-profession" placeholder="Enter Profession" required>
+                        <p class="absolute text-xs ml-14 text-red-800 hidden mt-1" id="new-profession-error">Please enter valid email</p>
+                    </div>
+                    <div class="m-6 ml-44">
+                        <button type="button" class="bg-green-800" id="addProfession">Add Profession</button>
+                    </div>
+                    <div class="m-6 ml-36">
+                        <button type="button" class="bg-green-800 w-[75px]">Submit</button>
+                    </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script>
+    const nameElement=document.getElementById("form-name");
+    const nameError=document.getElementById("name-error");
+
+    nameElement.addEventListener('input',function(event){
+        if(!nameElement.validity.valid){
+            nameError.classList.remove('hidden');
+        }
+        else{
+            nameError.classList.add('hidden');
+        }
+    });
+
+    const phoneElement=document.getElementById("form-phone");
+    const phoneError=document.getElementById("phone-error");
+
+    phoneElement.addEventListener('input',function(event){
+        if(!phoneElement.validity.valid){
+            phoneError.classList.remove('hidden');
+        }
+        else{
+            phoneError.classList.add('hidden');
+        }
+    });
+
+    const DOBElement=document.getElementById("form-DOB");
+    const DOBError=document.getElementById("DOB-error");
+    const ageElement=document.getElementById("form-age");
+
+    DOBElement.addEventListener('input',function(event){
+        const today = new Date();
+        // const maxDate = new Date(today.getFullYear() - 18, today.getMonth(), today.getDate());
+        const dob = new Date(DOBElement.value);
+        let age = today.getFullYear() - dob.getFullYear();
+        const monthDifference = today.getMonth() - dob.getMonth();
+        if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < dob.getDate())) {
+                age--;
+        }
+        ageElement.value=age;
+        if(age<18){
+            DOBError.classList.remove('hidden');
+        }
+        else{
+            DOBError.classList.add('hidden');
+        }
+    });
+
+
+    const emailElement=document.getElementById("form-email");
+    const emailError=document.getElementById("email-error");
+
+    emailElement.addEventListener('input',function(event){
+        if(!emailElement.validity.valid){
+            emailError.classList.remove('hidden');
+        }
+        else{
+            emailError.classList.add('hidden');
+        }
+    });
+
+    const professionArray = ["Engineer", "Doctor", "Teacher", "Artist"];
+    const professionElement=document.getElementById("form-profession")
+    
+    function addingProfessions(){
+        professionArray.forEach(profession => {
+            let option = document.createElement('option');
+            option.value = profession;
+            option.text = profession;
+            professionElement.appendChild(option);
+        });
+    }
+    addingProfessions();
+    
+    const addProfessionButton=document.getElementById("addProfession");
+    const newProfessionElement=document.getElementById("form-new-profession");
+
+    addProfessionButton.addEventListener("click",function(){
+        if(newProfessionElement.value && !professionArray.includes(newProfessionElement)){
+            professionArray.push(newProfessionElement.value);
+            addingProfessions();
+            newProfessionElement.value='';
+        }
+    });
+</script>

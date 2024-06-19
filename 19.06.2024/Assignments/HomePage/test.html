@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/global.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet">
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</head>
+<body class="bg-black">
+    <header class="bg-[#ffffff60]  rounded-lg m-4">
+        <nav class="flex items-center justify-between px-2 h-16">
+            <div>
+                <a href="#" class=".oswald-title font-bold text-xl border-2 px-2 py-1 rounded-md whitespace-nowrap bg-gray-500" id="store-name">Daily Quotes</a>
+            </div>
+            <div id="drop-panel" class="bg-[snow] sm:bg-transparent block hidden sm:static sm:mr-10 sm:gap-4 sm:flex sm:flex-row  absolute top-[75px] right-4 rounded-b-md w-32 text-center">        
+                    <p class="hover:text-slate-500 "><a href="index.html">Home</a></p>
+                    <p class="hover:text-slate-500 underline decoration-2 decoration-sky-500"><a href="Quotes.html">Quotes</a></p>
+            </div>
+            <div class="sm:hidden">
+                <button id="menu-button">
+                    <span><img src="media/icons/menu-open.svg"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="m-8 w-auto h-auto  grid">
+        <div class="w-auto h-auto">
+            <div class="card">
+                <div class="card-header text-center">
+                  Quotes
+                </div>
+                <div class="bg-black text-[snow] text-center">
+                    <div class="">
+                        <label class="m-2">Search by Authors: </label>
+                        <input type="text" id="form-author" class="m-2 rounded-lg text-black px-2 py-1">
+                        <button type="" class="bg-slate-500 h-9 px-2 py-1 rounded-lg hover:bg-green-900" onclick="searchFunction()">Search</button>
+                        <button class="bg-slate-500 h-9 px-2 py-1 rounded-lg hover:bg-red-900" onclick="clearFunction()">Clear</button>
+                    </div>
+                </div>
+                <div id="quotes-container">
+
+                </div>
+
+              </div>
+        </div>
+
+        <!--Pagination2-->
+        <div class="flex justify-center items-center mt-2" >
+            <nav aria-label="Page navigation example">
+                <ul class="inline-flex -space-x-px text-sm" id="pagination-block">
+                  
+                </ul>
+              </nav>
+        </div>
+</body>
+</html>
+
+<script src="js/global.js"></script>
+<script>
+    var toggle=false;
+    $(document).ready(()=>{
+        $("#menu-button").click(()=>{
+            $("#drop-panel").slideToggle(500);
+            if(toggle){
+                toggle=false;
+            }
+            else{
+                toggle=true;
+            }
+        });
+
+        $(window).resize(function(){
+            var screenWidth = $(window).width();
+
+            //sm-breakpoint
+            if (screenWidth >= 640) {
+                $("#drop-panel").css('display','');
+            }
+        });
+    });
+
+    function sortByAuthorAndQuote(list) {
+        return list.sort(function(a, b) {
+            var authorA = a.author.toUpperCase(); // ignore upper and lowercase
+            var authorB = b.author.toUpperCase(); // ignore upper and lowercase
+            
+            // First, compare by author
+            if (authorA < authorB) {
+                return -1;
+            }
+            if (authorA > authorB) {
+                return 1;
+            }
+            
+            // Authors are the same, now compare by starting letter of quote
+            var quoteA = a.quote.charAt(0).toUpperCase(); // first letter of quote, ignore case
+            var quoteB = b.quote.charAt(0).toUpperCase(); // first letter of quote, ignore case
+            if (quoteA < quoteB) {
+                return -1;
+            }
+            if (quoteA > quoteB) {
+                return 1;
+            }
+            
+            // Authors and starting letters are the same, do not change the order
+            return 0;
+        });
+    }
+
+
+    const quotesPerPage = 5;
+    let currentPage = 1;
+    let quotes = [];
+
+    async function fetchQuotes() {
+            try {
+                const response = await fetch('https://dummyjson.com/quotes');
+                const data = await response.json();
+                quotes = data.quotes;
+                console.log("test");
+                quotes=sortByAuthorAndQuote(quotes)
+                console.log(quotes);
+                displayQuotesbyPage(currentPage,quotes);
+                Pagination(quotes.length,quotes);
+            } catch (error) {
+                console.error('Error fetching the quotes:', error);
+            }
+    }
+
+    function displayQuotesbyPage(page, Quotes){
+        const start = (page - 1) * quotesPerPage;
+        const end = start + quotesPerPage;
+        const paginatedQuotes = Quotes.slice(start, end);
+
+        displayQuotes(paginatedQuotes);
+    }
+
+    function displayQuotes(paginatedQuotes){
+        const quotesContainer=document.getElementById("quotes-container");
+        quotesContainer.innerHTML='';
+        paginatedQuotes.forEach(quote=>{
+            const quoteBlock=document.createElement('div');
+            quoteBlock.className="card-body border-b border-gray-600 hover:bg-slate-400";
+
+            const block=document.createElement('blockquote');
+            block.className="blockquote mb-0";
+
+            const quoteText=document.createElement("p");
+            quoteText.innerText=quote.quote;
+
+            const quoteFooter=document.createElement('footer');
+            quoteFooter.className="blockquote-footer mt-2";
+            quoteFooter.innerText=quote.author
+
+            block.appendChild(quoteText);
+            block.appendChild(quoteFooter);
+
+            quoteBlock.appendChild(block);
+
+            quotesContainer.appendChild(quoteBlock);
+        });
+    }
+
+    function Pagination(totalQuotes,Quotes){
+        const paginationBlock=document.getElementById("pagination-block");
+        paginationBlock.innerHTML='';
+        const totalPages = Math.ceil(totalQuotes / quotesPerPage);
+
+        for(let i=1;i<=totalPages;i++){
+            const pageItem=document.createElement("li");
+            const pageLink=document.createElement("a");
+            pageLink.className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700  dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-700 dark:hover:text-white"
+            if(i==1){
+                pageLink.classList.add("underline", "decoration-2", "decoration-sky-500");
+            }
+            pageLink.href="#";
+            pageLink.id="p"+i;
+            pageLink.innerText=i;
+            pageLink.addEventListener('click',()=>{
+                const currentPageElement=document.getElementById("p"+currentPage);
+                console.log(currentPageElement.innerText);
+                currentPageElement.classList.remove("underline", "decoration-2", "decoration-sky-500");
+                pageLink.classList.add("underline", "decoration-2", "decoration-sky-500");
+                currentPage=i;
+                displayQuotesbyPage(currentPage,Quotes);
+            });
+
+            pageItem.appendChild(pageLink);
+            paginationBlock.appendChild(pageItem);
+        }
+    }
+
+    function searchFunction(){
+        
+        const author=document.getElementById("form-author").value;
+        if(author===''){
+            currentPage=1;
+            displayQuotesbyPage(currentPage,quotes);
+            Pagination(quotes.length,quotes);
+            return;
+        }
+        let authorQuotes=[];
+
+        quotes.forEach(quote=>{
+            if(quote.author.toLowerCase()===author.toLowerCase()){
+                authorQuotes.push(quote);
+            }
+        });
+        console.log(authorQuotes);
+        if(authorQuotes.length==0){
+            alert("No Quotes Found");
+            return;
+        }
+
+        currentPage=1
+        authorQuotes=sortByAuthorAndQuote(authorQuotes);
+        displayQuotesbyPage(currentPage,authorQuotes);
+        Pagination(authorQuotes.length,authorQuotes);
+    }
+
+    function clearFunction(){
+        document.getElementById("form-author").value='';
+        currentPage=1;
+        displayQuotesbyPage(currentPage,quotes);
+        Pagination(quotes.length,quotes);
+    }
+    fetchQuotes();
+</script>

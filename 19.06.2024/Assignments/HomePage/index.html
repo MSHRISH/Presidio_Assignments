@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/global.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet">
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="bg-black">
+    <header class="bg-[#ffffff60]  rounded-lg m-4">
+        <nav class="flex items-center justify-between px-2 h-16">
+            <div>
+                <a href="#" class=".oswald-title font-bold text-xl border-2 px-2 py-1 rounded-md whitespace-nowrap bg-gray-500" id="store-name">Daily Quotes</a>
+            </div>
+            <div id="drop-panel" class="bg-[snow] sm:bg-transparent block hidden sm:static sm:mr-10 sm:gap-4 sm:flex sm:flex-row  absolute top-[75px] right-4 rounded-b-md w-32 text-center">        
+                    <p class="hover:text-slate-500 underline decoration-2 decoration-sky-500"><a href="index.html">Home</a></p>
+                    <p class="hover:text-slate-500"><a href="Quotes.html">Quotes</a></p>
+            </div>
+            <div class="sm:hidden">
+                <button id="menu-button">
+                    <span><img src="media/icons/menu-open.svg"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="grid lg:grid-cols-2 ">
+        <div class="w-auto h-[400px] bg-gradient-to-b from-slate-900 to-slate-50 ml-8 mr-8 text-center text-9xl text-slate-500 px-2 py-1 items-center ">
+            <h1 class="mt-8 drop-shadow-lg ">Daily Quotes</h1>
+        </div>
+        <div class="px-4 py-4 m-4 text-balance text-[snow]">
+            <p>
+                Quotes hold a unique power in human communication, encapsulating wisdom, humor, and insight in a few succinct words. They often distill complex ideas into simple, memorable phrases that resonate deeply with readers and listeners. Throughout history, quotes have served as a source of inspiration, motivation, and reflection, often attributed to notable figures, thinkers, and writers whose experiences and perspectives offer valuable lessons. They have the ability to evoke strong emotions, provoke thought, and ignite conversations, making them an integral part of cultural and intellectual discourse. In an age where information is abundant, quotes stand out as nuggets of truth and beauty, providing clarity and connection in our everyday lives. Whether shared in speeches, written in books, or posted on social media, quotes continue to influence and shape our understanding of the world.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="js/global.js"></script>
+<script>
+    var toggle=false;
+    $(document).ready(()=>{
+        $("#menu-button").click(()=>{
+            $("#drop-panel").slideToggle(500);
+            if(toggle){
+                toggle=false;
+            }
+            else{
+                toggle=true;
+            }
+        });
+
+        $(window).resize(function(){
+            var screenWidth = $(window).width();
+
+            //sm-breakpoint
+            if (screenWidth >= 640) {
+                $("#drop-panel").css('display','');
+            }
+        });
+    });
+</script>

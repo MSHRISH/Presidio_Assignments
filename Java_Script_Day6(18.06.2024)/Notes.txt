@@ -1,0 +1,3 @@
+CORS
+    -Add CORS Policy in Program.CORS    
+    -Enable the Policy in controller 

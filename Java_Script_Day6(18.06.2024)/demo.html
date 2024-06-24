@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script>
+        const clickButton =()=>{
+            const txtUid = document.getElementById('txtUid').value *1;
+            const txtPass = document.getElementById('txtPass').value;
+            fetch('http://localhost:5122/api/UserAuthentication/Login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+                },
+            body: JSON.stringify({
+                "userId": txtUid,
+                "password": txtPass
+            })
+        })
+        .then(res => res.json())
+        .then(data=>{
+            console.log(data);
+            localStorage.setItem('userdata',JSON.stringify(data));
+        })
+        }
+        const viewDetails=()=>{
+            alert("button clicked")
+            const userDetails = JSON.parse(localStorage.getItem('userdata'));
+            const token = userDetails.token;
+            alert(token);
+            fetch('http://localhost:5122/api/UserAuthentication/GetMyDetails',{
+                method:'GET',
+                headers:{'Authorization': 'Bearer '+ token}
+            })
+            .then(res=>{
+                if(!res.ok){
+                    alert("Error");
+                }
+                return res.json();
+            })
+            .then(console.log)
+        };
+
+    const PutAPI=()=>{
+                /* updating body of comment with id 1 */
+        fetch('https://dummyjson.com/comments/1', {
+        method: 'PUT', /* or PATCH */
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            body: 'I think I should shift to the bla lbha',
+        })
+        })
+        .then(res => res.json())
+        .then(data=>{
+            
+            console.log(JSON.parse(JSON.stringify(data)).body);
+        });
+    }
+    </script>
+</head>
+<body>
+    <h1>Product Details</h1>
+    <input type="file" id="fileInput" name="fileInput">
+    <input class="form-control" type ="number" id="txtUid" placeholder="000"/>
+    <input class="form-control" type ="password" id="txtPass" placeholder="xxx"/>
+    <button class="btn btn-success" onclick="clickButton()">Login</button>
+    <div>
+        <button onclick="viewDetails()">View Details</button>
+    </div>
+    <div>
+        <button onclick="PutAPI()">Put in API</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+How Python Work?
+https://www.youtube.com/watch?v=BkHdmAhapws
+Python is a interpreter. 
+How to run a python file: $python file.py
+Here the "python" is already a binary file i.e set of instructions that can be understood by the processor.
+The instructions in "python" binary gets executed along with the filename which contains actual source code
+as a parameter input. 
+The python interpreter contains two components: PVM(Python Virtual Machine) and a Compiler.
+The compiler takes in the source file mentioned in the parameter and converts it into a intermediate code called
+"Byte Code", which still can't be understood by the processor. The PVM takes in the generatd Byte Code, and creates
+instruction sets that can be executed by the processor.
+
+How to view your byte code?
+python -m py_compile file.py
+
+This invokes the python compiler and makes it compile the code and store the Byte Code in a folder called
+"_pycache_" in ".pyc" extension.
+
+Human readable Byte File?
+python -m dis file.py
+
+This gives a disassembled view of the Byte Code in Human readable format.
+
+Is Python compiled or interpreted?
+https://www.youtube.com/watch?v=Korc0gwhUNE
+Uhmm so PVM contains interpreter rather than other way around?!
+

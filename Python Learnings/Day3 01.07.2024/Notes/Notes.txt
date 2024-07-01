@@ -1,0 +1,20 @@
+Attributes may be read-only or writable. In the latter case, assignment to attributes is possible.
+Module attributes are writable: you can write modname.the_answer = 42. Writable attributes may also 
+be deleted with the del statement. For example, del modname.the_answer will remove the attribute
+the_answer from the object named by modname.
+
+Namespaces are created at different moments and have different lifetimes. The namespace containing the built-in names is created when the Python interpreter starts up, and is never deleted. The global namespace for a module is created when the module definition is read in; normally, module namespaces also last until the interpreter quits. The statements executed by the top-level invocation of the interpreter, either read from a script file or interactively, are considered part of a module called __main__, so they have their own global namespace. (The built-in names actually also live in a module; this is called builtins.)
+
+ In fact, all operations that introduce new names use the local scope: in particular, import statements and function definitions bind the module or function name in the local scope.
+
+What exactly happens when a method is called? You may have noticed that x.f() was called without an argument above, even though the function definition for f() specified an argument. What happened to the argument? Surely Python raises an exception when a function that requires an argument is called without any — even if the argument isn’t actually used…
+
+Actually, you may have guessed the answer: the special thing about methods is that the instance object is passed as the first argument of the function. In our example, the call x.f() is exactly equivalent to MyClass.f(x). 
+
+If the same attribute name occurs in both an instance and in a class, then attribute lookup prioritizes the instance:
+
+Often, the first argument of a method is called self. This is nothing more than a convention: the name self has absolutely no special meaning to Python. 
+
+“Private” instance variables that cannot be accessed except from inside an object don’t exist in Python. However, there is a convention that is followed by most Python code: a name prefixed with an underscore (e.g. _spam) should be treated as a non-public part of the API (whether it is a function, a method or a data member). It should be considered an implementation detail and subject to change without notice.
+
+Since there is a valid use-case for class-private members (namely to avoid name clashes of names with names defined by subclasses), there is limited support for such a mechanism, called name mangling. Any identifier of the form __spam (at least two leading underscores, at most one trailing underscore) is textually replaced with _classname__spam, where classname is the current class name with leading underscore(s) stripped. This mangling is done without regard to the syntactic position of the identifier, as long as it occurs within the definition of a class.

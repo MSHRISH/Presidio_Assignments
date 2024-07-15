@@ -1,5 +1,5 @@
 Name	Date of Birth	Age	Phone		Email
-raghul	03.04.1999	25	0987654321	Raghul@gmail.com
+shrish	03.07.2002	21	1231231232	shrish@gmail.com
 Shrish	03.07.2002	21	8940410946	mynameisshrish@gmail.com
 Naresh	04.10.2002	21	1231231233	mynameisnaresh@gmail.com
 Sachin	03.09.2002	21	1231231231	sachin@gmail.com

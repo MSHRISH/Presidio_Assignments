@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Presidio\\Assignments_Presidio\\Day25\\PizzaApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\assignments_presidio\\day25\\pizzaapi\\pizzaapi\\controllers\\userservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\controllers\\userservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\assignments_presidio\\day25\\pizzaapi\\pizzaapi\\controllers\\userauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\controllers\\userauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\assignments_presidio\\day25\\pizzaapi\\pizzaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\assignments_presidio\\day25\\pizzaapi\\pizzaapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|c:\\presidio\\assignments_presidio\\day25\\pizzaapi\\pizzaapi\\controllers\\userservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115E0363-E00D-45AA-B0CB-D0E5504E306A}|PizzaApi\\PizzaApi.csproj|solutionrelative:pizzaapi\\controllers\\userservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,27 +34,50 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day25\\PizzaApi\\PizzaApi\\Dockerfile",
+              "RelativeDocumentMoniker": "PizzaApi\\Dockerfile",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day25\\PizzaApi\\PizzaApi\\Dockerfile",
+              "RelativeToolTip": "PizzaApi\\Dockerfile",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-23T10:48:47.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day25\\PizzaApi\\PizzaApi\\appsettings.json",
+              "RelativeDocumentMoniker": "PizzaApi\\appsettings.json",
+              "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day25\\PizzaApi\\PizzaApi\\appsettings.json",
+              "RelativeToolTip": "PizzaApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-23T10:31:24.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserAuthenticationController.cs",
               "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day25\\PizzaApi\\PizzaApi\\Controllers\\UserAuthenticationController.cs",
               "RelativeDocumentMoniker": "PizzaApi\\Controllers\\UserAuthenticationController.cs",
               "ToolTip": "C:\\Presidio\\Assignments_Presidio\\Day25\\PizzaApi\\PizzaApi\\Controllers\\UserAuthenticationController.cs",
               "RelativeToolTip": "PizzaApi\\Controllers\\UserAuthenticationController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAABOAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T02:44:03.213Z"
+              "WhenOpened": "2024-05-18T02:44:03.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UserServicesController.cs",
               "DocumentMoniker": "C:\\Presidio\\Assignments_Presidio\\Day25\\PizzaApi\\PizzaApi\\Controllers\\UserServicesController.cs",
               "RelativeDocumentMoniker": "PizzaApi\\Controllers\\UserServicesController.cs",

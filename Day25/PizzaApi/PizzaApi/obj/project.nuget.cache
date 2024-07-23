@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KepaNVR1yH3OhzocQ4JUx7FSKS9yEEdIV5k+sjwU5mG6MKI3X0a4ugrhaOwSH2ERnpC1YoWerej3WZFWwcN6dg==",
+  "dgSpecHash": "6urbXxxO5PaeUejSssZb6ThYHW5IRBzWdV8XV4ClnZA41pogHJPIFPSO/xNlxGp9CgGqlCYqFORfBXgR+hHApw==",
   "success": true,
   "projectFilePath": "C:\\Presidio\\Assignments_Presidio\\Day25\\PizzaApi\\PizzaApi\\PizzaApi.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\VC\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\VC\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\VC\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\VC\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\VC\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\VC\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\VC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
